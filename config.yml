@@ -55,7 +55,7 @@ params:
     profileMode:
           enabled: true
           title: Alejandro De La Torre
-          subtitle: "👋 hi, i’m @adelatorre2\n\n📊 economics (math emphasis) + information science (analytics)\n⚖️ interested in applied econ, data analytics, and antitrust/IO\n🧠 research + visualization + building clean, useful tools\n⚡ explore my work and let’s get in touch!"
+          subtitle: "👋 hi, i’m @adelatorre2\n\n📊 economics (math emphasis) + information science (analytics)\n🧠 empirically driven, policy‑minded problem solver\n🔍 interested in labor & public economics, applied econometrics, and policy‑relevant IO\n🎨 research, visualization, and building clean, useful tools\n⚡ explore my work and let’s get in touch!"
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
