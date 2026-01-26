@@ -60,16 +60,16 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: about
-              url: books/
-            - name: work
-              url: papers/
-            - name: projects
-              url: courses/
-            - name: resume
-              url: data/
-            - name: contact me!
-              url: location/
+            - name: About
+              url: about/
+            - name: Work
+              url: work/
+            - name: Projects
+              url: https://github.com/adelatorre2?tab=repositories
+            - name: Resume
+              url: adlt_resume.pdf
+            - name: Contact
+              url: contact/
 
     socialIcons:
         - name: LinkedIn
