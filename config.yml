@@ -60,15 +60,15 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: about
+            - name: About
               url: books/
-            - name: work
+            - name: websiteork
               url: papers/
-            - name: projects
+            - name: Projects
               url: courses/
-            - name: resume
+            - name: Resume
               url: data/
-            - name: contact me!
+            - name: Contact
               url: location/
 
     socialIcons:
