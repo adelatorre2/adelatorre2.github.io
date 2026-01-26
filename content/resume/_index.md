@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: "Résumé"
 hideToc: true
 ---
 <!-- Embed the PDF. Adjust height as needed -->
