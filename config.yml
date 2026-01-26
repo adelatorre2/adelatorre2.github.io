@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://adelatorre2.github.io/"
+title: Alejandro De La Torre
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,19 +12,19 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
+        - name: about
           url: books/
           weight: 5 
-        - name: Papers
+        - name: work
           url: papers/
           weight: 2
-        - name: Courses
+        - name: projects
           url: courses/
           weight: 3
-        - name: Data
+        - name: resume
           url: data/
           weight: 4 
-        - name: Blog
+        - name: contact me!
           url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
           weight: 6
 
@@ -55,49 +55,35 @@ params:
     profileMode:
           enabled: true
           title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          subtitle: "👋 hi, i’m @adelatorre2\n\n📊 economics (math emphasis) + information science (analytics)\n⚖️ interested in applied econ, data analytics, and antitrust/IO\n🧠 research + visualization + building clean, useful tools\n⚡ explore my work and let’s get in touch!"
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
+            - name: about
               url: books/
-            - name: Courses
+            - name: work
+              url: papers/
+            - name: projects
               url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: resume
+              url: data/
+            - name: contact me!
+              url: location/
 
     socialIcons:
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/adelatorre2/
+        - name: GitHub
+          url: https://github.com/adelatorre2
+        - name: Twitter
+          url: https://x.com/AlejDLT
+        - name: Bluesky
+          url: https://bsky.app/profile/alejdlt.bsky.social
+        - name: Email
+          url: mailto:alexdelatorre@wisc.edu
         - name: CV
           url: cv.pdf
-        - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true
