@@ -81,7 +81,7 @@ params:
         - name: Bluesky
           url: https://bsky.app/profile/alejdlt.bsky.social
         - name: Email
-          url: mailto:alexdelatorre@wisc.edu
+          url: mailto:adelatorre2@wisc.edu
         - name: Resume
           url: adlt_resume.pdf
 
