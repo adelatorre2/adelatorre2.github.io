@@ -87,12 +87,19 @@ params:
 
     assets:
         disableScrollBarStyle: true
+        favicon: "favicon_io/favicon.ico"
+        favicon16x16: "favicon_io/favicon-16x16.png"
+        favicon32x32: "favicon_io/favicon-32x32.png"
+        apple_touch_icon: "favicon_io/apple-touch-icon.png"
+        android_chrome_192x192: "favicon_io/android-chrome-192x192.png"
+        android_chrome_512x512: "favicon_io/android-chrome-512x512.png"
+        manifest: "favicon_io/site.webmanifest"
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
       text: "Alejandro De La Torre"
-      icon: favicon.ico
+      icon: favicon_io/favicon.ico
       iconHeight: 18
 
 markup:
