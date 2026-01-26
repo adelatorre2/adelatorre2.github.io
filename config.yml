@@ -12,19 +12,19 @@ taxonomies:
 
 menu:
     main:
-        - name: about
+        - name: About
           url: books/
           weight: 5 
-        - name: work
+        - name: Work
           url: papers/
           weight: 2
-        - name: projects
-          url: courses/
+        - name: Projects
+          url: https://github.com/adelatorre2?tab=repositories
           weight: 3
-        - name: resume
-          url: data/
+        - name: Resume
+          url: "adlt_resume.pdf"
           weight: 4 
-        - name: contact me!
+        - name: Contact
           url: location/
           weight: 6
 
