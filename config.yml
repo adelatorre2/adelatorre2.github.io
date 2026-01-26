@@ -25,12 +25,12 @@ menu:
           url: data/
           weight: 4 
         - name: contact me!
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          url: location/
           weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "Alejandro De La Torre — economics (math emphasis) + information science (analytics). Interested in applied economics, IO/antitrust, and data analytics."
+    author: Alejandro De La Torre
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -54,7 +54,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
+          title: Alejandro De La Torre
           subtitle: "👋 hi, i’m @adelatorre2\n\n📊 economics (math emphasis) + information science (analytics)\n⚖️ interested in applied econ, data analytics, and antitrust/IO\n🧠 research + visualization + building clean, useful tools\n⚡ explore my work and let’s get in touch!"
           imageUrl: "picture.jpeg"
           imageWidth: 160
@@ -91,7 +91,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Alejandro De La Torre"
       icon: favicon.ico
       iconHeight: 18
 
