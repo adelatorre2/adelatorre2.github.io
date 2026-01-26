@@ -82,8 +82,8 @@ params:
           url: https://bsky.app/profile/alejdlt.bsky.social
         - name: Email
           url: mailto:alexdelatorre@wisc.edu
-        - name: CV
-          url: cv.pdf
+        - name: Resume
+          url: adlt_resume.pdf
 
     assets:
         disableScrollBarStyle: true
