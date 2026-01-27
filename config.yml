@@ -57,11 +57,11 @@ params:
           title: Alejandro De La Torre
           # THIS IS THE CODE FOR THE TITLE PAGE OF THE WEBSITE EDIT THIS TO CHANGE IT
           subtitle: |
-            ¡Qué tal! I am @adelatorre2 \n
-            🏫 **Econ** + **Info Sci** + **Math** @**[UW-Madison](https://econ.wisc.edu/)** \n
-            📊 Analyst in the short-run, empirical econ research in the long-run \n
-            🔍 Interested in labor & public economics, applied econometrics, and policy‑oriented work \n
-            🎨 Dabbler in data viz, running, & competitive excel \n
+            ¡Qué tal! I am @adelatorre2
+            🏫 **Econ** + **Info Sci** + **Math** @**[UW-Madison](https://econ.wisc.edu/)**
+            📊 Analyst in the short-run, empirical econ research in the long-run
+            🔍 Interested in labor & public economics, applied econometrics, and policy-oriented work
+            🎨 Dabbler in data viz, running, & competitive excel
             ⚡ Explore my work and let’s get in touch!
           imageUrl: "picture.jpeg"
           imageWidth: 160
