@@ -55,7 +55,7 @@ params:
     profileMode:
           enabled: true
           title: Alejandro De La Torre
-          subtitle: "¡Qué tal! I am @adelatorre2<br><br>🏫 Econ + Info Sci + Math @ <a href=\"https://econ.wisc.edu/\" target=\"_blank\" rel=\"noopener\">UW–Madison</a><br><br>📊 Analyst in the short-run, empirical econ research in the long-run<br><br>🔍 Interested in labor & public economics, applied econometrics, and policy-oriented work<br><br>🎨 Dabbler in data viz, running, & competitive excel<br><br>⚡ Explore my work and let’s get in touch!"
+          subtitle: "¡Qué tal! I am @adelatorre2<br>🏫 Econ + Info Sci + Math @ <a href=\"https://econ.wisc.edu/\" target=\"_blank\" rel=\"noopener\">UW–Madison</a><br>📊 Analyst in the short-run, empirical econ research in the long-run<br>🔍 Interested in labor & public economics, applied econometrics, and policy-oriented work<br>🎨 Dabbler in data viz, running, & competitive excel<br>⚡ Explore my work and let’s get in touch!"
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
