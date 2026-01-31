@@ -2,6 +2,7 @@
 title: "Contact"
 ---
 # Contact 
+
 I’d love to hear from you! Let's get in touch!
 
 - **Email:** [adelatorre2@wisc.edu](mailto:adelatorre2@wisc.edu)  
