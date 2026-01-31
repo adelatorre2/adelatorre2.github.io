@@ -1,8 +1,6 @@
 ---
-title: "Résumé"
-hideToc: true
+title: "Work"
+description: "Stories and insights from my professional experiences"
 ---
-<!-- Embed the PDF. Adjust height as needed -->
-<iframe src="/adlt_resume.pdf" style="width:100%; height:100vh;" frameborder="0">
-  This browser does not support PDFs. Please download the PDF instead.
-</iframe>
+
+Short reflections on roles, projects, and what I learned along the way.

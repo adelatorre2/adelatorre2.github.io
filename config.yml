@@ -9,23 +9,27 @@ pagination:
 
 taxonomies:
     tag: tags
+    category: categories
 
 menu:
     main:
+        - name: Home
+          url: /
+          weight: 1
         - name: About
-          url: books/
-          weight: 5 
-        - name: Work
-          url: papers/
+          url: /about/
           weight: 2
-        - name: Projects
-          url: https://github.com/adelatorre2?tab=repositories
+        - name: Work
+          url: /work/
           weight: 3
-        - name: Resume
-          url: resume/
+        - name: Projects
+          url: /projects/
           weight: 4
+        - name: Resume
+          url: /adlt_resume.pdf
+          weight: 5
         - name: Contact
-          url: location/
+          url: /contact/
           weight: 6
 
 params:
@@ -44,7 +48,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["about","work","projects"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -61,15 +65,15 @@ params:
           imageHeight: 160
           buttons:
             - name: About
-              url: about/
+              url: /about/
             - name: Work
-              url: work/
+              url: /work/
             - name: Projects
-              url: projects/
+              url: /projects/
             - name: Resume
-              url: adlt_resume.pdf
+              url: /adlt_resume.pdf
             - name: Contact
-              url: contact/
+              url: /contact/
 
     socialIcons:
         - name: LinkedIn

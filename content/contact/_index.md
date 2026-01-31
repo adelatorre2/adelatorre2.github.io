@@ -1,8 +1,9 @@
 ---
-title: "Résumé"
-hideToc: true
+title: "Contact"
 ---
-<!-- Embed the PDF. Adjust height as needed -->
-<iframe src="/adlt_resume.pdf" style="width:100%; height:100vh;" frameborder="0">
-  This browser does not support PDFs. Please download the PDF instead.
-</iframe>
+
+The best way to reach me is email. You can also find me on LinkedIn and GitHub.
+
+- Email: [adelatorre2@wisc.edu](mailto:adelatorre2@wisc.edu)
+- LinkedIn: https://www.linkedin.com/in/adelatorre2/
+- GitHub: https://github.com/adelatorre2

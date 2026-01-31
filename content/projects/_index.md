@@ -1,8 +1,6 @@
 ---
-title: "Résumé"
-hideToc: true
+title: "Projects"
+description: "A collection of personal and learning projects"
 ---
-<!-- Embed the PDF. Adjust height as needed -->
-<iframe src="/adlt_resume.pdf" style="width:100%; height:100vh;" frameborder="0">
-  This browser does not support PDFs. Please download the PDF instead.
-</iframe>
+
+Blog-style notes and writeups grouped by theme.
