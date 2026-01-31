@@ -26,16 +26,6 @@ The goal is ambitious: **1:08:00 for the half marathon**. Whether or not I get t
 - 📈 **My Strava**  
   https://www.strava.com/athletes/77352805
 
-## Training Log (Living Document)
+## Training Log 
 
-This page will serve as a running log and planning hub for the build toward San Diego.
-
-### Completed Weeks
-- Week of Jan 20–26, 2026  
-  - Long run (missed due to life commitments)  
-  - Threshold workout (modified mid-session)  
-  - Progression run on Jan 31 — finished strong, closing near 5:00/mi
-
-### Upcoming Weeks
-- Week of Jan 27–Feb 1, 2026 *(planned)*
-- Future weeks to be added iteratively as training evolves
+You're welcome to see what I got cooking up for this block **[here](training_log.md)**
