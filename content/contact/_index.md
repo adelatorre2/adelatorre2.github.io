@@ -2,11 +2,14 @@
 title: "Contact"
 ---
 
-I’d love to hear from you! Here’s how you can get in touch:
+I’d love to hear from you! Let's get in touch!
 
 - **Email:** [adelatorre2@wisc.edu](mailto:adelatorre2@wisc.edu)  
-- **LinkedIn:** [linkedin.com/in/adelatorre2](https://www.linkedin.com/in/adelatorre2/)  
-- **GitHub:** [github.com/adelatorre2](https://github.com/adelatorre2)
+- **LinkedIn:** [adelatorre2](https://www.linkedin.com/in/adelatorre2/)  
+- **GitHub:** [adelatorre2](https://github.com/adelatorre2)
+
+---
+
 
 ## Currently Based in Madison, WI
 
