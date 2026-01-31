@@ -98,6 +98,8 @@ params:
         android_chrome_192x192: "favicon_io/android-chrome-192x192.png"
         android_chrome_512x512: "favicon_io/android-chrome-512x512.png"
         manifest: "favicon_io/site.webmanifest"
+        customCSS:
+          - css/custom-calendar.css
     cover:
         hiddenInList: false
         hiddenInSingle: true
