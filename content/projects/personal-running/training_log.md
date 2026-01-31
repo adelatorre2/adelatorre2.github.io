@@ -18,8 +18,8 @@ tags: ["running", "training", "strava","log"]
 ### February 2026
 | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   |   | **1**<br>75-90' LR; no pace targets; 15' mobility |
-| 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+|   |   |   |   |   |   | **1**<br>75–90' LR; no pace targets; 15' mobility |
+| **2**<br>45–55' EZ (~7:20–7:45/mi) + 10–15' mobility | **3**<br>2M WU + D&S, 3x8' @ HM–LT effort (5:20–5:35/mi) w/2' EZ, 2M CD | **4**<br>40–50' Recovery EZ + core | **5**<br>60' Steady Progression (7:00 → 6:15/mi) + 6–8x20" strides | **6 (PPR)**<br>30–40' EZ shakeout + mobility | **7 (PPR)**<br>50–60' EZ–Steady (no pace targets) | **8 (PPR)**<br>75–90' LR; relaxed aerobic + 15' mobility |
 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
 | 16 | 17 | 18 | 19 | 20 | 21 | 22 |
 | 23 | 24 | 25 | 26 | 27 | 28 |   |
