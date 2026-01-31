@@ -1,6 +1,0 @@
-/* Constrain table cells inside post content to a fixed height and allow scrolling */
-.post-content table td {
-  max-height: 120px;
-  overflow-y: auto;
-  vertical-align: top;
-}
