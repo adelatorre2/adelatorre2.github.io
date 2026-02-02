@@ -5,5 +5,5 @@ summary: "COMING SOON"
 categories: ["research"]
 tags: ["economics", "io", "modeling"]
 ---
-# COMING SOON
+# COMING SOON #
 I am plan on documenting my thesis process and other research projects---stay tuned!
