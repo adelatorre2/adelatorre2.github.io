@@ -20,7 +20,7 @@ tags: ["running", "training", "strava","log"]
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | **1**<br>75–90' LR; no pace targets; 15' mobility |
 | **2**<br>45–55' EZ (~7:20–7:45/mi) + 10–15' mobility | **3**<br>2M WU + D&S, 3x8' @ HM–LT effort (5:20–5:35/mi) w/2' EZ, 2M CD | **4**<br>40–50' Recovery EZ + core | **5**<br>60' Steady Progression (7:00 → 6:15/mi) + 6–8x20" strides | **6 (PPR)**<br>30–40' EZ shakeout + mobility | **7 (PPR)**<br>50–60' EZ–Steady (no pace targets) | **8 (PPR)**<br>75–90' LR; relaxed aerobic + 15' mobility |
-| 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+| **9**<br>40–50' EZ (~7:30–7:50/mi) + 10–15' mobility | **10**<br>2M WU + D&S, 4x6' @ HM–LT effort (5:25–5:40/mi) w/2' EZ, 2M CD | **11**<br>45–55' Recovery EZ + core | **12**<br>60' Steady Progression (7:05 → 6:20/mi) + 6x20" strides | **13**<br>30–40' EZ shakeout (AM only; no PM workout) | **14**<br>50–60' EZ–Steady (no pace targets) | **15**<br>80–95' LR; relaxed aerobic + 15' mobility |
 | 16 | 17 | 18 | 19 | 20 | 21 | 22 |
 | 23 | 24 | 25 | 26 | 27 | 28 |   |
 
