@@ -1,0 +1,184 @@
+\documentclass[10.5pt]{article} % EDIT FONT SIZE AS NEEDED
+
+% ---------- SINGLE-PAGE RESUME TIPS ----------
+% To adapt this resume for a single page, try the following:
+% - Reduce margins, e.g.:
+%     \usepackage[margin=0.6in]{geometry}
+% - Reduce font size, e.g.:
+%     \documentclass[10pt]{article}
+% - Tweak section spacing via \titlesec or add \vspace reduction
+% - Reduce line spacing:
+%     \setstretch{0.95}  % or lower
+% - Reduce item spacing:
+%     \setlist[itemize]{leftmargin=*, topsep=0pt, itemsep=0pt, parsep=0pt}
+% - Shorten bullet text or condense entries
+% - Delete less relevant sections (Teaching, Honors, etc.)
+% You can uncomment any below as needed.
+% -------------------- Packages --------------------
+% \usepackage[margin=0.9in]{geometry}  % Default for multi-page
+\usepackage[margin=0.8in]{geometry}   % Uncomment for tighter single-page layout
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{lmodern}
+
+% \setstretch{1.0}  % Default line spacing
+\setstretch{0.9}  % Slightly tighter spacing for single-page
+% \setlist[itemize]{leftmargin=*, topsep=0pt, itemsep=2pt, parsep=2pt}  % Use this for more breathing room
+\setlist[itemize]{leftmargin=*, topsep=0pt, itemsep=0pt, parsep=0pt} % tighter itemize spacing [EDIT THIS FOR SINGLE-PAGE RESUME IF NEEDED]
+
+% -------------------- Section Formatting --------------------
+
+\titleformat{\section}
+  {\scshape\large}
+  {}
+  {0em}
+  {}[\titlerule]
+
+% Customize section spacing: 
+% Format: \titlespacing*{command}{left}{before-sep}{after-sep}
+% Example:
+%   \titlespacing*{\section}{0pt}{8pt}{4pt}  % Tighter spacing
+%   \titlespacing*{\section}{0pt}{4pt}{2pt}  % Even tighter
+% Adjust values to control vertical spacing before and after section headers
+\titlespacing*{\section}{0pt}{10pt}{4pt}
+
+
+% -------------------- Header --------------------
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Alejandro De La Torre}} \\ 
+    \href{https://adelatorre2.github.io}{adelatorre2.github.io} \\
+    Madison, WI \;|\; (909) 921--9682 \;|\; 
+    \href{mailto:adelatorre2@wisc.edu}{adelatorre2@wisc.edu} \;|\; 
+    \href{https://www.linkedin.com/in/adelatorre2/}{LinkedIn} \;|\; 
+    \href{https://github.com/adelatorre2}{GitHub}
+\end{center}
+
+% -------------------- Education --------------------
+\section*{Education}
+
+\textbf{\href{https://www.wisc.edu/}{University of Wisconsin--Madison}} \hfill Expected May 2026 \\
+\hspace{0.5em}
+B.A. \href{https://econ.wisc.edu/}{Economics (Mathematical Emphasis)} and \href{https://ischool.wisc.edu/}{Information Science (Analytics)} \\
+Certificate in \href{https://math.wisc.edu/}{Mathematics} \\
+Cumulative GPA: 3.347/4.000
+
+\vspace{2pt}
+\noindent\textit{Relevant Coursework:}
+Real Analysis, Probability Theory, Causal Inference, Econometrics,
+Mathematical Statistics, Linear Algebra, Multivariable Calculus
+
+\vspace{6pt}
+\noindent\textbf{\href{https://www.iesabroad.org/programs/barcelona-liberal-arts-business}{IES Abroad -- Barcelona: Liberal Arts \& Business}} \hfill Spring 2025 \\
+\textit{Host Institutions:} Universitat Ramon Llull (Blanquerna), Universitat Pompeu Fabra \\
+\textit{Relevant Coursework:} Research Techniques and Statistics, International Finance, Artificial Intelligence and Machine Learning in Business
+
+\vspace{6pt} % felt a little cluttered
+
+\noindent\textbf{\href{https://economics.howard.edu/articles/aeasp-2024-scholar-alejandro-de-la-torre}{Howard University}} \hfill Summer 2024 \\
+\href{https://www.aeaweb.org/about-aea/committees/aeasp}{American Economic Association Summer Program} \\
+GPA: 4.000/4.000 \\
+\textit{Relevant Coursework:} Microeconomic Theory, Mathematical Economics, Econometrics I
+
+% -------------------- Research Experience --------------------
+\section*{Research Experience}
+
+\textbf{Research Assistant, \href{https://www.alicewu.io/}{Professor Alice Wu}} \hfill Sep 2025--Present \\
+University of Wisconsin--Madison Department of Economics
+\begin{itemize}
+    \item Support ongoing revisions to job market papers on employer learning and the academia--industry race for AI researchers.
+    \item Collect, clean, and link large-scale publication and patent data ($>$800{,}000 computer science papers) using Python, REST APIs, and automated web scraping pipelines.
+    \item Construct and validate matched publication--patent datasets, including author--inventor linkages, timing windows, and content-based similarity inputs for downstream modeling.
+    \item Perform exploratory data analysis to assess match quality, coverage, and selection patterns across academia and industry.
+\end{itemize}
+
+\vspace{2pt} % Adding a touch of space between experiences; edit this FOR ALL IF YOU CHOOSE TO EDIT IT OFR CONSISTENCY
+\noindent\textbf{Research Assistant, \href{https://law.duke.edu/fac/nili}{Professor Yaron Nili}} \hfill Oct 2022--May 2024 \\
+University of Wisconsin Law School
+\begin{itemize}
+    \item Compiled and analyzed firm-level datasets on peer group designations for S\&P 1500 companies (2005--2022), supporting multiple law review and working paper projects.
+    \item Identified, classified, and coded proxy statement disclosures related to antitrust, ESG, cybersecurity, and director expertise.
+    \item Contributed to research projects including \textit{Specialist Directors} (SSRN), \textit{Peer Group Governance}, and \textit{Shadow Governance}, supporting early-stage data construction and literature review.
+    \item Presented exploratory findings on antitrust-related board expertise at the 2023 UW Undergraduate Research Symposium.
+\end{itemize}
+
+% -------------------- Professional Experience --------------------
+\section*{Professional Experience}
+
+\textbf{\href{https://www.analysisgroup.com/}{Analysis Group}} \hfill Washington, DC \\
+Summer Analyst Intern \hfill June 2025--August 2025
+\begin{itemize}
+    \item Supported defense in U.S. ITC Section 337 patent infringement litigation involving solar panel manufacturers; co-developed 40+ exhibits for expert rebuttal report, auditing opposing expert’s calculations and identifying methodological flaws, double-counting, and data misclassification.
+    \item Analyzed HR, payroll, and facility expenditure data to evaluate whether the complainant met the domestic industry requirement under Section 337; synthesized findings to challenge claims of substantial U.S. investment and demonstrate limited nexus to U.S. manufacturing activity.
+    \item Conducted data scraping and analysis of 100+ patent litigation cases involving major smartphone manufacturers using LexisNexis, Excel, and Stata; currently designing intern capstone on the evolving role of behavioral economics in antitrust litigation.
+\end{itemize}
+
+\vspace{2pt} % Adding a touch of space between experiences; edit this FOR ALL IF YOU CHOOSE TO EDIT IT OFR CONSISTENCY
+\noindent\textbf{\href{https://www.analysisgroup.com/}{Analysis Group}} \hfill Washington, DC \\
+Summer Extern (\href{https://economics.howard.edu/articles/aeasp-2024-scholar-alejandro-de-la-torre}{AEA Summer Program}) \hfill May 2024--July 2024
+\begin{itemize}
+    \item Conducted a literature review examining competition in generic drug markets, trends in Medicare spending, historical M\&A activity in the generic pharmaceutical industry, and relevant healthcare policy and antitrust legislation to inform research design.
+    \item Designed and presented a case study analyzing the impact of horizontal mergers among U.S. generic pharmaceutical manufacturers on average spending per dosage unit of therapeutically equivalent drugs from 2012--2022.
+    \item Collected, cleaned, and analyzed large-scale datasets using Python, R, and Stata, drawing on Refinitiv, CMS Medicare Part D Spending by Drug, and Bloomberg Terminal data to evaluate post-merger price effects.
+\end{itemize}
+
+% -------------------- Campus Leadership & Student Services Experience --------------------
+\section*{Campus Leadership \& Student Services Experience}
+
+\textbf{\href{https://posseprogram.wisc.edu/}{UW--Madison Posse Program}} \hfill Madison, WI \\
+\href{https://posseprogram.wisc.edu/staff/de-la-torre-alejandro/}{Alumni Relations Intern} \hfill Aug 2024--Present
+\begin{itemize}
+    \item Develop and execute automated alumni communication campaigns using Eloqua and SQL-informed segmentation to re-engage 500+ alumni.
+    \item Design cross-platform engagement strategies to strengthen mentorship pipelines, inter-cohort visibility, and alumni--student connections.
+    \item Lead planning and execution of alumni events in collaboration with program leadership, supporting professional development and community-building.
+\end{itemize}
+
+\vspace{2pt} % Adding a touch of space between experiences; edit this FOR ALL IF YOU CHOOSE TO EDIT IT OFR CONSISTENCY
+\noindent\textbf{\href{https://prelaw.wisc.edu/}{Center for Pre-Law} and \href{https://prehealth.wisc.edu/}{Pre-Health Advising}} \hfill Madison, WI \\
+Advising Intern \hfill Feb 2024--Dec 2024
+\begin{itemize}
+    \item Served as primary point of contact for students and alumni, scheduling 30+ advising appointments weekly and managing high-volume email and phone inquiries.
+    \item Supported diversity and inclusion initiatives through outreach at campus resource fairs and informational events.
+    \item Contributed to development of a Pre-Law 101 Canvas course expanding access to advising resources for 3{,}000+ students and alumni.
+\end{itemize}
+
+% -------------------- Teaching & Educational Experience --------------------
+\section*{Teaching and Educational Experience}
+
+\textbf{\href{https://www.pomona.edu/administration/draper-center/pays}{Pomona College Academy for Youth Success (PAYS)}} \hfill Claremont, CA \\
+Teaching Assistant \hfill Jun 2023--Aug 2023
+\begin{itemize}
+    \item Mentored 18 rising high school juniors, providing academic support and college preparation in an intensive residential program.
+    \item Taught a business elective incorporating applied workshops in professionalism and critical thinking.
+    \item Facilitated academic assessment and feedback in coordination with faculty and program staff.
+\end{itemize}
+
+\vspace{2pt} % Adding a touch of space between experiences; edit this FOR ALL IF YOU CHOOSE TO EDIT IT OFR CONSISTENCY
+\noindent\textbf{\href{https://clubztutoring.com/madison-wi/}{ClubZ! In-Home Tutoring}} \hfill Madison, WI \\
+Private Tutor \hfill Jan 2024--Jul 2024
+\begin{itemize}
+    \item Delivered one-on-one tutoring to a middle school student in core subjects and a high school freshman in AP Calculus AB, who earned a score of 4 on the exam.
+    \item Emphasized conceptual understanding and pacing over rote problem-solving, supporting long-term retention and student confidence.
+    \item Collaborated with parents, teachers, and ClubZ! staff to align tutoring with classroom expectations and academic goals.
+    \item Integrated classroom feedback and assessment results to tailor lesson plans and monitor academic progress.
+\end{itemize}
+
+% -------------------- Honors --------------------
+\section*{Honors and Awards}
+
+Posse Foundation Full-Tuition Leadership Scholarship \hfill 2022--Present \\
+Hispanic Scholarship Fund Scholar \hfill 2023 \\
+\href{https://www.nationalrunningclubdatabase.com/athletes/379/}{NIRCA Cross Country National Championships}, 2nd Place (Men’s Championship) \hfill 2023
+
+% -------------------- Skills --------------------
+\section*{Skills}
+
+\textbf{Programming \& Data:} Python, R, Stata, SQL \\
+\textbf{Tools:} \LaTeX, Git/GitHub, Bloomberg, Refinitiv, LexisNexis, Tableau, Excel, Access, UI/UX design \\
+\textbf{Languages:} Spanish (Native; State of California bilingual certification), English (Fluent), Catalan (Basic)
+
+% -------------------- End --------------------
+\end{document}
