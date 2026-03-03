@@ -22,13 +22,13 @@ tags: ["running", "training", "strava","log"]
 | **2**<br>45–55' EZ (~7:20–7:45/mi) + 10–15' mobility | **3**<br>2M WU + D&S, 3x8' @ HM–LT effort (5:20–5:35/mi) w/2' EZ, 2M CD | **4**<br>40–50' Recovery EZ + core | **5**<br>60' Steady Progression (7:00 → 6:15/mi) + 6–8x20" strides | **6 (PPR)**<br>30–40' EZ shakeout + mobility | **7 (PPR)**<br>50–60' EZ–Steady (no pace targets) | **8 (PPR)**<br>75–90' LR; relaxed aerobic + 15' mobility |
 | **9**<br>40–50' EZ (~7:30–7:50/mi) + 10–15' mobility | **10**<br>2M WU + D&S, 4x6' @ HM–LT effort (5:25–5:40/mi) w/2' EZ, 2M CD | **11**<br>45–55' Recovery EZ + core | **12**<br>60' Steady Progression (7:05 → 6:20/mi) + 6x20" strides | **13**<br>30–40' EZ shakeout (AM only; no PM workout) | **14**<br>50–60' EZ–Steady (no pace targets) | **15**<br>80–95' LR; relaxed aerobic + 15' mobility |
 | **16**<br>No run (exam prep) | **17**<br>No run (exam prep) | **18**<br>No run (exam prep) | **19**<br>No run (exam prep) | **20**<br>No run (exam prep) | **21**<br>3.47 mi (24') EZ reset | **22**<br>No run |
-| **23**<br>3.87 mi (20') EZ reset | **24**<br>No run | **25**<br>30–40' EZ + 4–6x20" strides (keep it light; sleep priority) | **26**<br>45–55' EZ (~7:25–7:50/mi) + 10–15' mobility | **27**<br>2M WU + D&S, 4x5' @ controlled HM effort (5:25–5:40/mi) w/2' EZ, 2M CD | **28**<br>50–60' EZ–Steady (no pace targets; relaxed aerobic) | **1**<br>80–90' LR; relaxed aerobic, no hard finish + 15' mobility |
+| **23**<br>3.87 mi (20') EZ reset | **24**<br>No run | **25**<br>No run | **26**<br>No run | **27**<br>No run | **28**<br>51' Progression (8.07 mi; 8→12 mph) + arms | **1**<br>No run |
 
 ### March 2026
 | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   |   | 1 |
-| 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+|   |   |   |   |   |   | **1**<br>No run |
+| **2**<br>30–40' EZ reset (late; sleep priority) | **3**<br>45–55' EZ (~7:25–7:50/mi) + 6x20" strides | **4**<br>2M WU + D&S, 4x6' @ controlled HM effort (5:25–5:40/mi) w/2' EZ, 2M CD | **5**<br>45–55' Recovery EZ + core | **6**<br>60' Steady Progression (7:05 → 6:15/mi) + 6–8x20" strides | **7**<br>50–60' EZ–Steady (relaxed aerobic) | **8**<br>85–95' LR; relaxed aerobic, no hard finish + 15' mobility |
 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
 | 16 | 17 | 18 | 19 | 20 | 21 | 22 |
 | 23 | 24 | 25 | 26 | 27 | 28 | 29 |
