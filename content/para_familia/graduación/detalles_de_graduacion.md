@@ -4,6 +4,7 @@ date: 2026-03-07
 summary: "Enlaces y detalles para la graduación de Alex"
 categories: ["familia"]
 tags: ["familia", "enlaces", "links","graduación"]
+slug: "detalles-de-graduacion"
 ---
  
 # Guía rápida de graduación

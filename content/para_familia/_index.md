@@ -1,6 +1,8 @@
 ---
-title: "Para Familia"
-description: "Enlace y centro de recursos para la familia"
+title: "Familia"
+description: "Información y enlaces clave para la familia"
 ---
 
-Links and resources to share with the family.
+Bienvenidos. Aquí están los recursos principales para la familia.
+
+- [Guía rápida de graduación]({{< relref "para_familia/graduación/detalles_de_graduacion.md" >}})
