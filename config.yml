@@ -26,6 +26,8 @@ menu:
           url: /projects/
           weight: 4
         - name: Familia
+          identifier: para_familia
+          pageRef: /para_familia/
           url: /para_familia/
           weight: 5
         - name: Resume
