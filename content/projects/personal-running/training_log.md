@@ -29,7 +29,7 @@ tags: ["running", "training", "strava","log"]
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | **1**<br>No run |
 | **2**<br>30–40' EZ reset (late; sleep priority) | **3**<br>45–55' EZ (~7:25–7:50/mi) + 6x20" strides | **4**<br>2M WU + D&S, 4x6' @ controlled HM effort (5:25–5:40/mi) w/2' EZ, 2M CD | **5**<br>45–55' Recovery EZ + core | **6**<br>60' Steady Progression (7:05 → 6:15/mi) + 6–8x20" strides | **7**<br>50–60' EZ–Steady (relaxed aerobic) | **8**<br>85–95' LR; relaxed aerobic, no hard finish + 15' mobility |
-| 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+| **9**<br>40–50' Recovery EZ (~7:35–8:00/mi) + mobility | **10**<br>2M WU + D&S, 5x5' @ HM–LT effort (5:20–5:35/mi) w/90" EZ, 2M CD | **11**<br>45–55' Recovery EZ + light core | **12**<br>60' Steady Progression (7:10 → 6:10/mi) + 6x20" strides | **13**<br>30–40' EZ shakeout + mobility | **14**<br>55–65' Steady Aerobic (6:50–7:10/mi) | **15**<br>90–100' LR; relaxed aerobic + practice fueling (1 gel @ ~40') + mobility |
 | 16 | 17 | 18 | 19 | 20 | 21 | 22 |
 | 23 | 24 | 25 | 26 | 27 | 28 | 29 |
 | 30 | 31 |   |   |   |   |   |
