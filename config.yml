@@ -95,6 +95,10 @@ params:
           url: mailto:adelatorre2@wisc.edu
         - name: Resume
           url: adlt_resume.pdf
+        - name: Twitch
+          url: https://www.twitch.tv/ale_de_la_torre
+        - name: Strava
+          url: https://www.strava.com/athletes/77352805
 
     assets:
         disableScrollBarStyle: true
