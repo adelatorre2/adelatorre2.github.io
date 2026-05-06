@@ -1,5 +1,5 @@
 ---
-title: "Training Log"
+title: "Spring Training Log"
 date: 2026-01-31
 summary: "What's in the pot?"
 categories: ["personal-running"]
