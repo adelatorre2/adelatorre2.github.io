@@ -17,6 +17,12 @@ cover:
   <figcaption><em>GroceryPal — Home, Optimized Grocery List, and Dashboard. Final hi-fi mockup, May 2026.</em></figcaption>
 </figure>
 
+<div style="text-align:center;margin:1.5rem 0 3rem;padding:1.75rem 1.5rem;border:1px solid rgba(25,47,77,0.18);border-radius:12px;background:rgba(25,47,77,0.04);">
+  <p style="margin:0 0 1rem;font-size:0.95rem;opacity:0.85;">Want to skip ahead and click through the prototype yourself?</p>
+  <a href="https://www.figma.com/proto/SzANPULQzrM4FbtyiR51lo/LIS-470_Final-Design?node-id=2036-708&p=f&t=c6bXOoEXaA1EcsMA-1&scaling=scale-down&content-scaling=fixed&page-id=2036%3A707&starting-point-node-id=2036%3A708&show-proto-sidebar=1" target="_blank" rel="noopener" style="display:inline-block;padding:0.85rem 1.75rem;background:#192F4D;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;letter-spacing:0.01em;">Open the Figma Prototype →</a>
+  <p style="margin:1rem 0 0;font-size:0.85rem;opacity:0.7;"><em>Demo task: import a recipe and complete an optimized two-store trip while staying inside your monthly budget.</em></p>
+</div>
+
 ## Background
 
 **GroceryPal** is a mobile app concept that helps budget-constrained college students plan efficient grocery trips without increasing cognitive effort or time. It was the team final project for **LIS 470: Information Architecture & Interaction Design** at UW–Madison, Spring 2026. Over the course of the semester my team and I cycled through every stage of the design-thinking process — empathize, define, ideate, prototype, test — across nine sequential studio assignments (A1–A9), each one feeding directly into the next. This case study walks through that arc from my perspective.
@@ -114,8 +120,8 @@ The integrated design moved through four prototype stages, each one informed by 
 ### Storyboard
 
 <figure>
-  <img src="storyboard.jpg" alt="Six-frame storyboard showing a budget-conscious student using GroceryPal end-to-end">
-  <figcaption><em>My A7 storyboard — a six-frame narrative validating the user journey from pantry check through optimized routing to checkout.</em></figcaption>
+  <img src="storyboard-final.jpg" alt="Hand-drawn six-frame storyboard showing a budget-conscious student using GroceryPal end-to-end">
+  <figcaption><em>My A7 storyboard — six hand-drawn frames tracing a budget-conscious student through the full GroceryPal flow, from pantry check to optimized in-store shopping.</em></figcaption>
 </figure>
 
 The storyboard's job was to validate that the user journey *as a whole* held up. Each of us drew one for A7 — mine traced a budget-conscious student's full weekly flow, and Helena's traced a roommate-coordination flow, so we covered both axes the integrated app needed to support.
@@ -126,12 +132,13 @@ For the paper prototype we focused on the meal-planning core (the easiest piece 
 
 ### Wireframes
 
-<figure>
-  <img src="wireframe-optimized.png" alt="Mid-fidelity wireframe of the Optimized Grocery List screen">
-  <figcaption><em>One of the A8 wireframes — the Optimized Grocery List view, showing items split between two stores with running totals and savings.</em></figcaption>
-</figure>
-
 Wireframes (A8) were where the product's information architecture got locked in. We chose a **four-item bottom navigation** — Home, Lists, Dashboard, Groups — and committed to keeping that nav grid identical on every screen. This was a direct application of the IA principles from the course: consistent labels, predictable hierarchy, the same orientation cues everywhere so users don't have to re-learn the interface as they move between flows. *Reducing cognitive load wasn't a content decision — it was a structural one.*
+
+<div style="margin:1.5rem 0;padding:1.25rem 1.5rem;border-left:4px solid #192F4D;background:rgba(25,47,77,0.04);border-radius:4px;">
+  <p style="margin:0 0 0.4rem;font-weight:600;">View the wireframes in Figma →</p>
+  <p style="margin:0;font-size:0.95rem;opacity:0.85;">The full mid-fi wireframe set is browsable as its own Figma flow:</p>
+  <p style="margin:0.6rem 0 0;"><a href="https://www.figma.com/proto/SzANPULQzrM4FbtyiR51lo/LIS-470_Final-Design?node-id=0-1&t=UOpCX5ztufIOX7k8-1" target="_blank" rel="noopener">Open the wireframe prototype</a></p>
+</div>
 
 ### Hi-Fi Mockup
 
@@ -139,37 +146,60 @@ The final hi-fi mockup in Figma has eight connected screens and is built around 
 
 > **Demo task:** *Import a recipe and complete an optimized two-store trip while staying inside your monthly budget.*
 
-The strongest screen in the file is the Optimized Grocery List — it's where four of the six insights from our affinity diagram converge into a single view:
+The strongest screen in the file is the **Optimized Grocery List** — it's where four of the six insights from our affinity diagram converge into a single view. Every visual decision on that screen traces back to either an observation insight or an information-architecture principle from class. **Visual hierarchy** pulls the eye to the savings call-out, which is the financial outcome students care most about. **Contrast** separates the two store cards so the split is legible at a glance. **Consistency** in the list pattern (item, price, action) means users don't have to re-parse each row. The choice to put store names as headers (rather than a per-item store column) reflects the routine-not-deal-hunting insight from A4: students don't compare stores item-by-item, they decide on stores and stick to them.
 
-<figure>
-  <img src="hifi-optimized-list.png" alt="Optimized Grocery List screen — items split between Trader Joe's and Target with totals and savings call-out">
-  <figcaption><em>Optimized Grocery List — items auto-grouped by cheapest store, with the savings call-out anchored at the bottom.</em></figcaption>
-</figure>
+Here's the rest of the mockup — swipe through to see every screen in the flow:
 
-Every visual decision on this screen traces back to either an observation insight or an information-architecture principle from class. **Visual hierarchy** pulls the eye to the savings call-out, which is the financial outcome students care most about. **Contrast** separates the two store cards so the split is legible at a glance. **Consistency** in the list pattern (item, price, action) means users don't have to re-parse each row. The choice to put store names as headers (rather than a per-item store column) reflects the routine-not-deal-hunting insight from A4: students don't compare stores item-by-item, they decide on stores and stick to them.
+<p style="text-align:center;font-size:0.85rem;opacity:0.6;margin:1rem 0 -0.5rem;letter-spacing:0.04em;">← swipe to see all twelve screens →</p>
 
-Here's the rest of the mockup at a glance:
-
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin:2rem 0;">
-  <figure style="margin:0;">
-    <img src="hifi-login.png" alt="Login screen" style="width:100%;border-radius:8px;">
-    <figcaption><em>Login</em></figcaption>
+<div style="display:flex;gap:1.25rem;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:1.5rem 0.25rem 2.5rem;margin:1rem -0.25rem 1.5rem;">
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-login.png" alt="Login screen" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>1 · Login</em></figcaption>
   </figure>
-  <figure style="margin:0;">
-    <img src="hifi-home.png" alt="Home / List Builder screen" style="width:100%;border-radius:8px;">
-    <figcaption><em>Home / List Builder</em></figcaption>
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-home.png" alt="Home / List Builder screen" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>2 · Home / List Builder</em></figcaption>
   </figure>
-  <figure style="margin:0;">
-    <img src="hifi-map.png" alt="Map screen showing multi-stop route" style="width:100%;border-radius:8px;">
-    <figcaption><em>Map — multi-stop route across the cheapest store split</em></figcaption>
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-recipe.png" alt="Recipe import modal" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>3 · Recipe Import</em></figcaption>
   </figure>
-  <figure style="margin:0;">
-    <img src="hifi-dashboard.png" alt="Dashboard screen with budget, spending categories, recent purchases" style="width:100%;border-radius:8px;">
-    <figcaption><em>Dashboard — full grocery total visible against monthly budget</em></figcaption>
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-loading.png" alt="Loading screen — optimizing the grocery list" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>4 · Optimizing</em></figcaption>
   </figure>
-  <figure style="margin:0;">
-    <img src="hifi-groups-pantry.png" alt="Groups screen showing shared pantry with roommate claims" style="width:100%;border-radius:8px;">
-    <figcaption><em>Groups — shared pantry with roommate claims to prevent double-buys</em></figcaption>
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-optimized-list.png" alt="Optimized Grocery List screen" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>5 · Optimized List</em></figcaption>
+  </figure>
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-map.png" alt="Map screen showing multi-stop route" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>6 · Multi-stop Map</em></figcaption>
+  </figure>
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-dashboard.png" alt="Dashboard screen with budget, spending categories, recent purchases" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>7 · Budget Dashboard</em></figcaption>
+  </figure>
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-history.png" alt="Grocery list history screen" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>8 · List History</em></figcaption>
+  </figure>
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-groups-pantry.png" alt="Shared pantry view in the Groups tab" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>9 · Shared Pantry</em></figcaption>
+  </figure>
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-groups-activity.png" alt="Group activity feed" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>10 · Group Activity</em></figcaption>
+  </figure>
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-groups-chats.png" alt="Group chat thread" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>11 · Group Chat</em></figcaption>
+  </figure>
+  <figure style="flex:0 0 240px;scroll-snap-align:start;margin:0;">
+    <img src="hifi-groups-plus.png" alt="Add item modal in the Groups tab" style="width:100%;border-radius:10px;box-shadow:0 4px 16px rgba(25,47,77,0.12);">
+    <figcaption style="margin-top:0.65rem;font-size:0.88rem;text-align:center;"><em>12 · Add Shared Item</em></figcaption>
   </figure>
 </div>
 
@@ -181,11 +211,11 @@ The POV statement asked for a way to plan efficient grocery trips without increa
 
 ## Try the Prototype
 
-The interactive Figma prototype is published and clickable. The demo task is to **import a recipe and complete an optimized two-store trip while staying inside your monthly budget**.
-
-<a href="https://www.figma.com/proto/SzANPULQzrM4FbtyiR51lo/LIS-470_Final-Design?node-id=2036-708&p=f&t=c6bXOoEXaA1EcsMA-1&scaling=scale-down&content-scaling=fixed&page-id=2036%3A707&starting-point-node-id=2036%3A708&show-proto-sidebar=1" target="_blank" rel="noopener">
-  <img src="https://img.shields.io/badge/Open%20Figma%20Prototype-%23192F4D?style=for-the-badge&logo=figma&logoColor=white" alt="Open Figma Prototype">
-</a>
+<div style="text-align:center;margin:1.5rem 0 2rem;padding:2rem 1.5rem;border:1px solid rgba(25,47,77,0.18);border-radius:12px;background:linear-gradient(135deg, rgba(25,47,77,0.04), rgba(25,47,77,0.08));">
+  <p style="margin:0 0 0.5rem;font-size:1.1rem;font-weight:600;color:#192F4D;">GroceryPal — interactive Figma prototype</p>
+  <p style="margin:0 0 1.25rem;font-size:0.95rem;opacity:0.85;">Demo task: <em>import a recipe and complete an optimized two-store trip while staying inside your monthly budget.</em></p>
+  <a href="https://www.figma.com/proto/SzANPULQzrM4FbtyiR51lo/LIS-470_Final-Design?node-id=2036-708&p=f&t=c6bXOoEXaA1EcsMA-1&scaling=scale-down&content-scaling=fixed&page-id=2036%3A707&starting-point-node-id=2036%3A708&show-proto-sidebar=1" target="_blank" rel="noopener" style="display:inline-block;padding:0.85rem 1.75rem;background:#192F4D;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;letter-spacing:0.01em;">Open the Figma Prototype →</a>
+</div>
 
 ---
 
