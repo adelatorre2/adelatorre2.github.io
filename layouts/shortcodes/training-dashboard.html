@@ -1,0 +1,654 @@
+<style>
+/* ── Training Dashboard ─────────────────────────────────── */
+/* All selectors scoped to .td-* to avoid collisions        */
+
+.td-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 28px 0 20px;
+}
+.td-views {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.td-views button {
+  background: var(--code-bg);
+  color: var(--secondary);
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  min-height: 44px;
+  transition: background 0.15s, color 0.15s;
+}
+.td-views button + button { border-left: 1px solid var(--border); }
+.td-views button:hover { background: var(--lightcolor); color: var(--primary); }
+.td-views button.td-active {
+  background: var(--darkcolor);
+  color: #fff;
+}
+.td-export-btn {
+  margin-left: auto;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--secondary);
+  font-size: 13px;
+  padding: 6px 12px;
+  cursor: pointer;
+  min-height: 44px;
+  white-space: nowrap;
+}
+.td-export-btn:hover { border-color: var(--darkcolor); color: var(--darkcolor); }
+
+/* ── Week view ──────────────────────────────────────────── */
+.td-week {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+.td-week-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  cursor: pointer;
+  background: var(--code-bg);
+  user-select: none;
+  min-height: 44px;
+  gap: 8px;
+}
+.td-week-header:hover { background: var(--lightcolor); }
+.td-week-title { font-weight: 600; font-size: 15px; color: var(--primary); }
+.td-week-meta { font-size: 13px; color: var(--secondary); flex-shrink: 0; }
+.td-week-arrow {
+  font-size: 11px;
+  color: var(--secondary);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.td-week.td-open .td-week-arrow { transform: rotate(90deg); }
+.td-week-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+.td-week.td-open .td-week-body { max-height: 9999px; }
+.td-week-inner { padding: 0 16px 16px; }
+
+/* ── Calendar view ──────────────────────────────────────── */
+#td-cal-view { display: none; }
+.td-cal-month { margin-bottom: 28px; }
+.td-cal-month-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--primary);
+}
+.td-cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 3px;
+}
+.td-cal-dh {
+  font-size: 11px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--secondary);
+  padding: 4px 0;
+  text-transform: uppercase;
+}
+.td-cal-cell {
+  min-height: 48px;
+  border-radius: 6px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  padding: 4px;
+  font-size: 12px;
+  color: var(--primary);
+  position: relative;
+  vertical-align: top;
+  cursor: default;
+}
+.td-cal-cell.td-cal-empty { background: transparent; border-color: transparent; cursor: default; }
+.td-cal-cell.td-cal-has-session { cursor: pointer; }
+.td-cal-cell.td-cal-has-session:hover { border-color: var(--darkcolor); }
+.td-cal-cell.td-cal-today {
+  border-color: var(--darkcolor);
+  background: color-mix(in srgb, var(--darkcolor) 12%, transparent);
+}
+.td-cal-cell.td-cal-curweek { background: color-mix(in srgb, var(--lightcolor) 40%, transparent); }
+.td-cal-num { font-weight: 600; font-size: 13px; }
+.td-cal-label { font-size: 10px; color: var(--secondary); margin-top: 2px; line-height: 1.2; }
+.td-cal-dot {
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  margin-top: 3px;
+}
+.td-dot-ez   { background: #9ca3af; }
+.td-dot-lr   { background: #22c55e; }
+.td-dot-steady { background: #3b82f6; }
+.td-dot-strength { background: #f97316; }
+.td-dot-flex { background: #a855f7; }
+
+/* ── List view ──────────────────────────────────────────── */
+#td-list-view { display: none; }
+.td-list-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.td-list-bar label { font-size: 13px; color: var(--secondary); }
+.td-list-bar select {
+  font-size: 13px;
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--code-bg);
+  color: var(--primary);
+}
+.td-list table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.td-list th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--secondary);
+  padding: 6px 8px;
+  border-bottom: 2px solid var(--border);
+}
+.td-list td {
+  padding: 8px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.td-list tr:last-child td { border-bottom: none; }
+.td-list tr:hover td { background: var(--code-bg); }
+
+/* ── Per-day notes ──────────────────────────────────────── */
+.td-note-wrap {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.td-note-label { font-size: 12px; color: var(--secondary); margin-bottom: 4px; display: block; }
+.td-note-area {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--code-bg);
+  color: var(--primary);
+  resize: vertical;
+  min-height: 52px;
+  font-family: inherit;
+}
+.td-note-area:focus { outline: none; border-color: var(--darkcolor); }
+.td-note-saved {
+  font-size: 11px;
+  color: var(--secondary);
+  margin-top: 2px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.td-note-saved.td-flash { opacity: 1; }
+
+/* ── Export dialog ──────────────────────────────────────── */
+dialog.td-dialog {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  background: var(--theme);
+  color: var(--primary);
+  max-width: 560px;
+  width: 90vw;
+}
+dialog.td-dialog::backdrop { background: rgba(0,0,0,0.45); }
+.td-dialog h3 { margin: 0 0 12px; font-size: 16px; }
+.td-dialog textarea {
+  width: 100%;
+  box-sizing: border-box;
+  height: 240px;
+  font-family: monospace;
+  font-size: 13px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--code-bg);
+  color: var(--primary);
+  resize: vertical;
+}
+.td-dialog-footer { margin-top: 12px; display: flex; gap: 8px; justify-content: flex-end; }
+.td-dialog-footer button {
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  font-size: 14px;
+  background: var(--code-bg);
+  color: var(--primary);
+}
+.td-dialog-footer button.td-btn-primary {
+  background: var(--darkcolor);
+  color: #fff;
+  border-color: var(--darkcolor);
+}
+
+/* ── Mobile ─────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .td-views button { padding: 8px 10px; font-size: 13px; }
+  .td-export-btn { margin-left: 0; width: 100%; text-align: center; }
+  .td-bar { flex-direction: column; align-items: stretch; }
+  .td-views { width: 100%; }
+  .td-views button { flex: 1; }
+  .td-week-header { flex-wrap: wrap; }
+  .td-week-meta { width: 100%; font-size: 12px; }
+  .td-cal-dh { font-size: 9px; }
+  .td-cal-cell { min-height: 38px; padding: 2px; }
+  .td-cal-num { font-size: 11px; }
+  .td-cal-label { display: none; }
+}
+@media (max-width: 400px) {
+  .td-cal-cell { min-height: 30px; }
+  .td-cal-dot { width: 5px; height: 5px; }
+}
+</style>
+
+<div id="training-dash"></div>
+
+<script>
+(function () {
+  const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const DAYS_FULL = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const MONTH_RE = /^(January|February|March|April|May|June|July|August|September|October|November|December)/i;
+  const WEEK_RE = /^Week of (.+?)–(\d+),\s*(\d{4})/i;
+  const DAY_RE = /^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s*([\w]+ \d+)\s*—/i;
+  const EFFORT_KEYS = { ez: 'EZ', lr: 'LR', lr2: 'long run', steady: 'steady', strength: 'strength', flex: 'flex' };
+
+  function parseMonthDay(str, year) {
+    // e.g. "May 18" or "May 18" -> Date
+    const m = str.trim().match(/^(\w+)\s+(\d+)/);
+    if (!m) return null;
+    const mo = MONTHS.findIndex(x => x.toLowerCase() === m[1].toLowerCase());
+    if (mo < 0) return null;
+    return new Date(year, mo, parseInt(m[2]));
+  }
+
+  function effortClass(text) {
+    const t = text.toLowerCase();
+    if (/long run|lr\b/.test(t)) return 'lr';
+    if (/strength|lift|squat/.test(t)) return 'strength';
+    if (/steady|rhythm/.test(t)) return 'steady';
+    if (/flex|travel|chicago/.test(t)) return 'flex';
+    return 'ez';
+  }
+
+  function isoDate(d) {
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  }
+
+  // ── Parse weeks from post-content DOM ──────────────────────
+  function parseWeeks() {
+    const content = document.querySelector('.post-content');
+    if (!content) return [];
+    const weeks = [];
+    let cur = null;
+
+    content.childNodes.forEach(node => {
+      if (node.nodeType === 1 && node.tagName === 'H2') {
+        const txt = node.textContent.trim();
+        const m = txt.match(WEEK_RE);
+        if (m) {
+          if (cur) weeks.push(cur);
+          const year = parseInt(m[3]);
+          const startDate = parseMonthDay(m[1], year);
+          const endDay = parseInt(m[2]);
+          const endDate = startDate ? new Date(startDate.getFullYear(), startDate.getMonth(), endDay) : null;
+          cur = { heading: node, title: txt, startDate, endDate, nodes: [], days: [] };
+          return;
+        }
+      }
+      if (cur) cur.nodes.push(node);
+    });
+    if (cur) weeks.push(cur);
+
+    // parse days within each week
+    weeks.forEach(w => {
+      let curDay = null;
+      w.nodes.forEach(node => {
+        if (node.nodeType === 1 && node.tagName === 'H4') {
+          const txt = node.textContent.trim();
+          const m = txt.match(DAY_RE);
+          if (m && w.startDate) {
+            if (curDay) w.days.push(curDay);
+            const dayDate = parseMonthDay(m[2], w.startDate.getFullYear());
+            curDay = { heading: node, title: txt, date: dayDate, nodes: [] };
+            return;
+          }
+        }
+        if (curDay) curDay.nodes.push(node);
+      });
+      if (curDay) w.days.push(curDay);
+    });
+
+    return weeks;
+  }
+
+  // ── Wrap weeks in collapsible containers ───────────────────
+  function wrapWeeks(weeks) {
+    const today = new Date(); today.setHours(0,0,0,0);
+    weeks.forEach(w => {
+      const isCurrent = w.startDate && w.endDate && today >= w.startDate && today <= w.endDate;
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'td-week' + (isCurrent ? ' td-open' : '');
+
+      // extract theme + target from nodes text
+      let meta = '';
+      w.nodes.slice(0,4).forEach(n => {
+        const t = n.textContent || '';
+        if (/Theme:|Target:/.test(t)) meta += t.replace(/\*\*/g,'').trim().substring(0,80) + ' ';
+      });
+
+      const header = document.createElement('div');
+      header.className = 'td-week-header';
+      header.innerHTML = `<span class="td-week-title">${w.title}</span><span class="td-week-meta">${meta.trim().slice(0,72)}</span><span class="td-week-arrow">▶</span>`;
+      header.addEventListener('click', () => wrapper.classList.toggle('td-open'));
+
+      const body = document.createElement('div');
+      body.className = 'td-week-body';
+      const inner = document.createElement('div');
+      inner.className = 'td-week-inner';
+
+      // move heading + sibling nodes in
+      w.heading.remove();
+      w.nodes.forEach(n => { n.parentNode && n.parentNode.removeChild(n); inner.appendChild(n); });
+
+      body.appendChild(inner);
+      wrapper.appendChild(header);
+      wrapper.appendChild(body);
+
+      const content = document.querySelector('.post-content');
+      content.appendChild(wrapper);
+    });
+  }
+
+  // ── Calendar view ─────────────────────────────────────────
+  function buildCalendar(weeks) {
+    const today = new Date(); today.setHours(0,0,0,0);
+    // map ISO date -> day info
+    const dayMap = {};
+    weeks.forEach(w => {
+      w.days.forEach(d => {
+        if (d.date) dayMap[isoDate(d.date)] = { title: d.title, heading: d.heading };
+      });
+    });
+    // find min/max months
+    const allDates = weeks.flatMap(w => [w.startDate, w.endDate]).filter(Boolean);
+    if (!allDates.length) return document.createElement('div');
+
+    const minD = new Date(Math.min(...allDates)); minD.setDate(1);
+    const maxD = new Date(Math.max(...allDates));
+
+    const container = document.createElement('div');
+    container.id = 'td-cal-view';
+
+    let d = new Date(minD);
+    while (d <= maxD) {
+      const year = d.getFullYear(), month = d.getMonth();
+      const monthDiv = document.createElement('div');
+      monthDiv.className = 'td-cal-month';
+      monthDiv.innerHTML = `<div class="td-cal-month-title">${MONTHS[month]} ${year}</div>`;
+
+      const grid = document.createElement('div');
+      grid.className = 'td-cal-grid';
+      // Mon-Sun headers (abbreviated on mobile via CSS)
+      ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].forEach(lbl => {
+        const dh = document.createElement('div');
+        dh.className = 'td-cal-dh';
+        dh.textContent = lbl;
+        grid.appendChild(dh);
+      });
+
+      const firstDay = new Date(year, month, 1).getDay(); // 0=Sun
+      const offset = (firstDay + 6) % 7; // shift so Mon=0
+      for (let i = 0; i < offset; i++) {
+        const blank = document.createElement('div');
+        blank.className = 'td-cal-cell td-cal-empty';
+        grid.appendChild(blank);
+      }
+
+      const daysInMonth = new Date(year, month + 1, 0).getDate();
+      for (let day = 1; day <= daysInMonth; day++) {
+        const cellDate = new Date(year, month, day);
+        const iso = isoDate(cellDate);
+        const info = dayMap[iso];
+        const cell = document.createElement('div');
+        let cls = 'td-cal-cell';
+        if (cellDate.getTime() === today.getTime()) cls += ' td-cal-today';
+        // current week highlight
+        const mondayThisWeek = new Date(today); mondayThisWeek.setDate(today.getDate() - (today.getDay()+6)%7);
+        const sundayThisWeek = new Date(mondayThisWeek); sundayThisWeek.setDate(mondayThisWeek.getDate()+6);
+        if (cellDate >= mondayThisWeek && cellDate <= sundayThisWeek) cls += ' td-cal-curweek';
+        if (info) cls += ' td-cal-has-session';
+        cell.className = cls;
+        const dotCls = info ? 'td-dot-' + effortClass(info.title) : '';
+        cell.innerHTML = `<div class="td-cal-num">${day}</div>${info ? `<div class="td-cal-label">${info.title.split('—')[0].split(',')[0].trim().slice(0,3)}</div><div class="td-cal-dot ${dotCls}"></div>` : ''}`;
+        if (info) {
+          cell.addEventListener('click', () => {
+            switchView('week');
+            setTimeout(() => {
+              const heading = info.heading;
+              const weekWrapper = heading.closest('.td-week');
+              if (weekWrapper && !weekWrapper.classList.contains('td-open')) weekWrapper.classList.add('td-open');
+              heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 80);
+          });
+        }
+        grid.appendChild(cell);
+      }
+      monthDiv.appendChild(grid);
+      container.appendChild(monthDiv);
+      d = new Date(year, month + 1, 1);
+    }
+    return container;
+  }
+
+  // ── List view ─────────────────────────────────────────────
+  function buildList(weeks) {
+    const container = document.createElement('div');
+    container.id = 'td-list-view';
+    container.className = 'td-list';
+
+    const bar = document.createElement('div');
+    bar.className = 'td-list-bar';
+    bar.innerHTML = `<label for="td-filter">Filter:</label><select id="td-filter"><option value="">All sessions</option><option value="ez">Easy (EZ)</option><option value="lr">Long run</option><option value="steady">Steady</option><option value="strength">Strength</option><option value="flex">Flex/Travel</option></select>`;
+    container.appendChild(bar);
+
+    const table = document.createElement('table');
+    table.innerHTML = `<thead><tr><th>Date</th><th>Day</th><th>Session</th><th>Miles</th><th>Type</th></tr></thead>`;
+    const tbody = document.createElement('tbody');
+
+    const rows = [];
+    weeks.forEach(w => {
+      w.days.forEach(d => {
+        if (!d.date) return;
+        let miles = '—', session = d.title.split('—').slice(1).join('—').trim();
+        // try to extract approx miles from sibling nodes text
+        d.nodes.forEach(n => {
+          const t = n.textContent || '';
+          const m = t.match(/Approx[^:]*:\s*([\d.–\-]+(?:\s*[–\-]\s*[\d.]+)?)\s*M/i);
+          if (m) miles = m[1];
+        });
+        const type = effortClass(d.title);
+        rows.push({ date: d.date, day: DAYS_FULL[d.date.getDay()], session, miles, type, heading: d.heading });
+      });
+    });
+    rows.sort((a, b) => b.date - a.date);
+
+    function renderRows(filter) {
+      tbody.innerHTML = '';
+      rows.filter(r => !filter || r.type === filter).forEach(r => {
+        const tr = document.createElement('tr');
+        tr.dataset.type = r.type;
+        tr.innerHTML = `<td>${MONTHS[r.date.getMonth()].slice(0,3)} ${r.date.getDate()}</td><td>${r.day.slice(0,3)}</td><td>${r.session.slice(0,60)}</td><td>${r.miles}</td><td>${r.type}</td>`;
+        tr.style.cursor = 'pointer';
+        tr.addEventListener('click', () => {
+          switchView('week');
+          setTimeout(() => {
+            const ww = r.heading.closest('.td-week');
+            if (ww && !ww.classList.contains('td-open')) ww.classList.add('td-open');
+            r.heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 80);
+        });
+        tbody.appendChild(tr);
+      });
+    }
+
+    renderRows('');
+    bar.querySelector('#td-filter').addEventListener('change', e => renderRows(e.target.value));
+    table.appendChild(tbody);
+    container.appendChild(table);
+    return container;
+  }
+
+  // ── Notes persistence ─────────────────────────────────────
+  function initNotes(weeks) {
+    weeks.forEach(w => {
+      w.days.forEach(d => {
+        if (!d.date || !d.heading) return;
+        const key = `summer26_notes_v1_${isoDate(d.date)}`;
+        const wrap = document.createElement('div');
+        wrap.className = 'td-note-wrap';
+        const saved = document.createElement('span');
+        saved.className = 'td-note-saved';
+        saved.textContent = 'saved';
+        const ta = document.createElement('textarea');
+        ta.className = 'td-note-area';
+        ta.rows = 2;
+        ta.placeholder = 'Post-workout note (saved locally on this device)';
+        ta.value = localStorage.getItem(key) || '';
+        let timer;
+        ta.addEventListener('input', () => {
+          clearTimeout(timer);
+          timer = setTimeout(() => {
+            localStorage.setItem(key, ta.value);
+            saved.classList.add('td-flash');
+            setTimeout(() => saved.classList.remove('td-flash'), 1400);
+          }, 500);
+        });
+        wrap.innerHTML = `<span class="td-note-label">Post-workout note</span>`;
+        wrap.appendChild(ta);
+        wrap.appendChild(saved);
+        // insert after last node in day section, before next h4/hr
+        const lastNode = d.nodes[d.nodes.length - 1];
+        if (lastNode && lastNode.parentNode) {
+          lastNode.parentNode.insertBefore(wrap, lastNode.nextSibling);
+        } else if (d.heading.parentNode) {
+          d.heading.parentNode.insertBefore(wrap, d.heading.nextSibling);
+        }
+      });
+    });
+  }
+
+  // ── Export notes ──────────────────────────────────────────
+  function buildExportDialog() {
+    const dialog = document.createElement('dialog');
+    dialog.className = 'td-dialog';
+    dialog.innerHTML = `<h3>Export notes as markdown</h3><textarea readonly></textarea><div class="td-dialog-footer"><button class="td-btn-primary" id="td-copy-btn">Copy</button><button id="td-close-btn">Close</button></div>`;
+    document.body.appendChild(dialog);
+    dialog.querySelector('#td-close-btn').addEventListener('click', () => dialog.close());
+    dialog.querySelector('#td-copy-btn').addEventListener('click', () => {
+      const ta = dialog.querySelector('textarea');
+      ta.select();
+      document.execCommand('copy');
+      dialog.querySelector('#td-copy-btn').textContent = 'Copied!';
+      setTimeout(() => dialog.querySelector('#td-copy-btn').textContent = 'Copy', 1500);
+    });
+    return dialog;
+  }
+
+  function exportNotes(dialog) {
+    const keys = Object.keys(localStorage).filter(k => k.startsWith('summer26_notes_v1_')).sort().reverse();
+    if (!keys.length) { alert('No notes saved yet.'); return; }
+    let md = '## Post-Workout Notes — Summer 2026\n\n';
+    keys.forEach(k => {
+      const val = localStorage.getItem(k);
+      if (!val) return;
+      const d = new Date(k.replace('summer26_notes_v1_',''));
+      md += `### ${DAYS_FULL[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}\n${val}\n\n`;
+    });
+    dialog.querySelector('textarea').value = md.trim();
+    dialog.showModal();
+  }
+
+  // ── View switching ─────────────────────────────────────────
+  let currentView = 'week';
+  const viewIds = { week: '.td-week', calendar: '#td-cal-view', list: '#td-list-view' };
+  function switchView(view) {
+    currentView = view;
+    localStorage.setItem('summer26_view', view);
+    document.querySelectorAll('.td-views button').forEach(b => b.classList.toggle('td-active', b.dataset.view === view));
+    // show/hide week wrappers
+    document.querySelectorAll('.td-week').forEach(el => el.style.display = view === 'week' ? '' : 'none');
+    const cal = document.getElementById('td-cal-view');
+    const lst = document.getElementById('td-list-view');
+    if (cal) cal.style.display = view === 'calendar' ? '' : 'none';
+    if (lst) lst.style.display = view === 'list' ? '' : 'none';
+  }
+
+  // ── Init ──────────────────────────────────────────────────
+  document.addEventListener('DOMContentLoaded', function () {
+    const weeks = parseWeeks();
+    if (!weeks.length) return; // no weeks found — degrade silently
+
+    wrapWeeks(weeks);
+
+    const calView = buildCalendar(weeks);
+    const listView = buildList(weeks);
+    const dialog = buildExportDialog();
+
+    const content = document.querySelector('.post-content');
+    content.appendChild(calView);
+    content.appendChild(listView);
+
+    initNotes(weeks);
+
+    // build toggle bar and inject into #training-dash
+    const dash = document.getElementById('training-dash');
+    if (!dash) return;
+    const bar = document.createElement('div');
+    bar.className = 'td-bar';
+    bar.innerHTML = `
+      <div class="td-views">
+        <button data-view="week" class="td-active">Week</button>
+        <button data-view="calendar">Calendar</button>
+        <button data-view="list">List</button>
+      </div>
+      <button class="td-export-btn">Export notes</button>`;
+    bar.querySelector('.td-export-btn').addEventListener('click', () => exportNotes(dialog));
+    bar.querySelectorAll('.td-views button').forEach(b => b.addEventListener('click', () => switchView(b.dataset.view)));
+    dash.appendChild(bar);
+
+    // restore saved view
+    const saved = localStorage.getItem('summer26_view');
+    if (saved && saved !== 'week') switchView(saved);
+  });
+})();
+</script>

@@ -170,13 +170,20 @@ _To be completed after the week._
 
 ## How I'll Update This Page
 
-Each new week goes **above** older weeks, right below the "Current Block" label. Add:
+This page has a JavaScript dashboard (Week / Calendar / List views, per-day notes). The dashboard reads heading text to parse weeks and days — so the headings below must follow the exact formats.
 
-1. `## Week of [Date Range]` heading
-2. **Theme**, **Target**, and **Purpose** lines
-3. Weekly Priorities list
-4. Week at a Glance table
-5. Day-by-Day Plan section with one `####` heading per day
-6. A `### Reflection` at the bottom of the week, filled in after it's complete
+**Each new week — add ABOVE older weeks, right below "Current Block":**
 
-Older weeks stay below so the page serves as a full log over time.
+1. `## Week of [Month D]–[D], YYYY` — e.g. `## Week of May 25–31, 2026`
+2. `**Theme:**`, `**Target:**`, `**Purpose:**` lines
+3. `### Weekly Priorities` list
+4. `### Week at a Glance` table (wrapped in `<div style="overflow-x:auto;">`)
+5. `### Day-by-Day Plan` section with one `#### [Weekday], [Month D] — [Label]` heading per day (e.g. `#### Monday, May 25 — Easy Restart`)
+6. Each day's content with `**Run:**`, `**Approx:**`, `**Effort:**` fields — the List view parses `**Approx:** X–Y M`
+7. `### Reflection` at the bottom of the week — paste exported notes here after the week is done
+
+**Notes feature:** The dashboard saves per-day workout notes in your browser's localStorage (device-local, not synced). Use "Export notes" to get a markdown snippet, then paste it into the `### Reflection` block of the source file for permanent storage. Clearing browser data will erase unsaved notes.
+
+Older weeks stay below and collapse automatically. The current week auto-expands on load.
+
+{{< training-dashboard >}}
