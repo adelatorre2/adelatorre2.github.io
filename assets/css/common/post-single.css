@@ -139,6 +139,9 @@
 
 .post-content table {
     margin-bottom: var(--content-gap);
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .post-content table th,
