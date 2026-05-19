@@ -16,6 +16,7 @@ tags: ["running", "training", "strava", "log", "summer"]
 7) Maybe somewhere to upload and visualize apple watch health data
 8) Add a page for lifting routines and tracking thereof'
 9) Add fueling and meal prep routines page
+10) Add book repo and source coaching material; maybe a journal space titled: "shit I learned the hard way" about running to document my learning and self coaching lessons
 -->
 
 ---
