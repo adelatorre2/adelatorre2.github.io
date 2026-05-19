@@ -6,33 +6,7 @@ categories: ["personal-running"]
 tags: ["running", "training", "strava", "log", "summer"]
 ---
 
-## About This Block
 
-This is a **base-building phase**, not a fitness-test phase. The goal is to build the habit of daily aerobic work, keep the body healthy, and create a solid foundation for harder training later. There is no tempo, no track, and no doubles unless I feel unusually good. Every week should end with me wanting more.
-
-**Strava:** [strava.com/athletes/77352805](https://www.strava.com/athletes/77352805)
-
----
-
-## Effort Rules
-
-| Effort Level | Pace Range | Notes |
-|---|---|---|
-| Easy (EZ) | 7:15–8:15/mi | Maybe slower if needed. Conversational. |
-| Normal aerobic | 6:50–7:30/mi | Only if it feels natural — never forced. |
-| Steady 1' reps | ~5:55–6:20/mi feel | Controlled, smooth, no straining. |
-| Long run | Conversational | The whole way. No hard finishes. |
-
-- No tempo yet.
-- No track work yet.
-- No doubles yet unless feeling unusually good.
-
----
-
-## Abbreviations
-
-`'` = minutes &nbsp;|&nbsp; `"` = seconds &nbsp;|&nbsp; `M` = miles &nbsp;|&nbsp; `EZ` = easy &nbsp;|&nbsp; `PU` = pickups  
-`WU` = warm up &nbsp;|&nbsp; `CD` = cool down &nbsp;|&nbsp; `LR` = long run &nbsp;|&nbsp; `HM` = half marathon
 
 ---
 
