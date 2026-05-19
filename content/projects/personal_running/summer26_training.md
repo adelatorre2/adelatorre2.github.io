@@ -13,6 +13,9 @@ tags: ["running", "training", "strava", "log", "summer"]
 4) BIG feature: Add API endpoint so that any workouts I put here get automatically added to Coros training hub
 5) Make chatgpt coach accessible via the website? Or somehow streamline the current workflow which is: prompt chat for week's workouts -> feed that to claude to put it on the calendar -> prompt claude code to add it to the website by editing this file 
 6) Add a PR and race results page on the website with ability to link strava result, add pictures, and text entry like a journal entry from the documentation, with a view for all personal bests and history longitudinal view of progression in each event
+7) Maybe somewhere to upload and visualize apple watch health data
+8) Add a page for lifting routines and tracking thereof'
+9) Add fueling and meal prep routines page
 -->
 
 ---
