@@ -27,6 +27,141 @@ tags: ["running", "training", "strava", "log", "summer"]
 
 ---
 
+## Week of June 1–7, 2026
+
+**Theme:** Momentum  
+**Target:** 45–55 M, but do not chase mileage  
+**Purpose:** Rebuild consistency after travel and re-establish daily running rhythm.
+
+The goal this week is not to prove fitness. The goal is to stack days, rebuild rhythm, and start summer training by showing up consistently.
+
+### Weekly Priorities
+
+- Move 6–7 consecutive days, even if some days are small.
+- Keep most running conversational and relaxed.
+- Use strides to remember what fast feels like.
+- Do one controlled threshold session.
+- Keep the long run fully aerobic.
+- Finish the week feeling ready to keep building.
+
+### Week at a Glance
+
+<div style="overflow-x:auto;">
+
+| Day | Date | Session | Approx. Miles | Notes |
+|---|---:|---|---:|---|
+| Mon | Jun 1 | Travel day / no run | 0 | Puerto Rico/travel reset |
+| Tue | Jun 2 | 45–60' EZ + 6x20" strides | 6–8 | Re-establish rhythm |
+| Wed | Jun 3 | 40–50' EZ | 5.5–7 | Optional core/mobility |
+| Thu | Jun 4 | 3x8' steady threshold / 2' jog | 7–9 | Controlled, not heroic |
+| Fri | Jun 5 | 40–50' recovery | 5–7 | Relaxed |
+| Sat | Jun 6 | 60–75' aerobic | 8–10 | No progression |
+| Sun | Jun 7 | 90' long EZ | 11–13 | Fully aerobic |
+| | | **Weekly estimate** | **45–55** | Mileage is secondary to consistency |
+
+</div>
+
+**Estimated weekly mileage:** 45–55 M if the week goes well, but mileage is secondary to consistency.
+
+---
+
+### Day-by-Day Plan
+
+#### Monday, June 1 — Travel Day / No Run
+
+**Run:** Off / travel day  
+**Approx:** 0 M  
+**Effort:** Travel reset  
+**Note:** Travel day after Puerto Rico. No need to force a run. This is the reset before the week starts.
+
+---
+
+#### Tuesday, June 2 — Easy Run + Strides
+
+**Run:** 45–60' EZ + 6x20" strides  
+**Approx:** 6–8 M  
+**Effort:** Conversational, relaxed, no pace target. 7:30/mi is fine if it feels good; 8:15/mi is fine if that feels better.  
+**After:** Optional 2x15 calf raises, optional 2x15 bent-knee calf raises, 5–10' mobility  
+**Note:** The goal is to re-establish identity, not fitness.
+
+---
+
+#### Wednesday, June 3 — Easy Aerobic
+
+**Run:** 40–50' EZ  
+**Approx:** 5.5–7 M  
+**Effort:** Easy and conversational  
+**Optional:** Core and mobility  
+**Note:** Keep this simple. Stack another day.
+
+---
+
+#### Thursday, June 4 — First Workout Back
+
+**Run:** WU + 3x8' steady threshold / 2' jog + CD  
+**Approx:** 7–9 M  
+**Effort:** Controlled, comfortably hard, around HM effort. Not 5K effort.  
+**Treadmill guide:** Around 5:45–6:05/mi if that matches the right effort. Effort matters more than pace.  
+**Note:** Nothing heroic. This is the first workout back.
+
+---
+
+#### Friday, June 5 — Recovery Run
+
+**Run:** 40–50' recovery  
+**Approx:** 5–7 M  
+**Effort:** Very relaxed and conversational  
+**Note:** Absorb Thursday. Do not press.
+
+---
+
+#### Saturday, June 6 — Aerobic Run
+
+**Run:** 60–75' aerobic  
+**Approx:** 8–10 M  
+**Effort:** Smooth, relaxed, no progression, no workout  
+**Note:** Just running.
+
+---
+
+#### Sunday, June 7 — Long Easy Run
+
+**Run:** 90' long EZ  
+**Approx:** 11–13 M  
+**Effort:** Relaxed, fully aerobic, no hard finish  
+**Finish feeling like:** "I could have gone another 20–30 minutes."  
+**Note:** This is the anchor of the week.
+
+---
+
+### Effort Rules
+
+- Easy runs should be conversational.
+- No pace chasing.
+- The Thursday threshold should feel controlled, not like a race.
+- The Saturday aerobic run should not become a progression.
+- The Sunday long run should finish relaxed.
+- The win is consistency, not proving fitness.
+
+### Summer Block Direction
+
+June: Rebuild consistency.  
+July: Rebuild volume.  
+August: Start sharpening.  
+September: Race.
+
+### Reflection
+
+_To be completed after the week._
+
+---
+
+## Week of May 25–31, 2026
+
+Travel week after San Diego/Puerto Rico. No formal running. Treated as a reset before beginning the June summer base-building rhythm.
+
+---
+
 ## Week of May 18–24, 2026
 
 **Theme:** Routine-building base week  
