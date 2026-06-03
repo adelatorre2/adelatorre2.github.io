@@ -72,7 +72,7 @@ The goal this week is not to prove fitness. The goal is to stack days, rebuild r
 **Run:** Off / travel day  
 **Approx:** 0 M  
 **Effort:** Travel reset  
-**Note:** Travel day after Puerto Rico. No need to force a run. This is the reset before the week starts.
+**Note:** Travel day. Could not run.
 
 ---
 
@@ -158,7 +158,7 @@ _To be completed after the week._
 
 ## Week of May 25–31, 2026
 
-Travel week after San Diego/Puerto Rico. No formal running. Treated as a reset before beginning the June summer base-building rhythm.
+Travel week.
 
 ---
 
