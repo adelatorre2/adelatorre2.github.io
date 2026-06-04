@@ -49,4 +49,8 @@ Planned recipe tags should stay consistent enough to make future filtering possi
     <span class="fueling-card-title">Orzo Chicken Bowl Template</span>
     <span class="fueling-card-description">A batch-friendly bowl built around orzo, chicken, and vegetables.</span>
   </a>
+  <a class="fueling-card" href="/projects/personal_running/fueling/recipes/one-pot-beef-kale-bean-tomato-sauce/">
+    <span class="fueling-card-title">One-Pot Beef, Kale, Bean, Tomato Sauce</span>
+    <span class="fueling-card-description">A cheap, flexible, high-protein dinner anchor for training weeks.</span>
+  </a>
 </div>

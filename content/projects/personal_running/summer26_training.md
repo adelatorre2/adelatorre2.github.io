@@ -29,6 +29,8 @@ build:
 
 [Summer 2026 Training Meal Plan](/projects/personal_running/fueling/meal-plans/summer-2026-training/)
 
+Use this meal plan as the grocery backbone for the summer base-building block.
+
 ---
 
 ## Week of June 1–7, 2026
