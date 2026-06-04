@@ -155,6 +155,7 @@
 }
 
 .post-content .table-scroll table {
+    min-width: 680px;
     margin-bottom: 0;
 }
 
