@@ -44,13 +44,9 @@ Here I share my current training plan and reflections from my training blocks.
   </div>
 </section>
 
-## Training & Racing
+## Racing Archive
 
 <nav class="running-hub-nav" aria-label="Training and racing navigation">
-  <a class="running-hub-card" href="/projects/personal_running/">
-    <span class="running-hub-card-title">Training Logs</span>
-    <span class="running-hub-card-description">Weekly plans, base-building notes, and training reflections.</span>
-  </a>
   <a class="running-hub-card" href="/projects/personal_running/racing/">
     <span class="running-hub-card-title">Racing Dashboard</span>
     <span class="running-hub-card-description">PRs, race results, and race reflections.</span>
