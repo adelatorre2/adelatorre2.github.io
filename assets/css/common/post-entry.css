@@ -94,6 +94,76 @@
     outline-offset: 2px;
 }
 
+.post-content .running-hub-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.post-content .running-hub-card,
+.post-content .race-reflection-card {
+    display: block;
+    padding: 1rem;
+    color: var(--primary);
+    background: var(--entry);
+    border: 2px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.post-content .running-hub-card:hover,
+.post-content .running-hub-card:focus,
+.post-content .race-reflection-card:hover,
+.post-content .race-reflection-card:focus {
+    color: var(--darkcolor);
+    border-color: var(--darkcolor);
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.post-content .running-hub-card:focus-visible,
+.post-content .race-reflection-card:focus-visible {
+    outline: 2px solid var(--darkcolor);
+    outline-offset: 2px;
+}
+
+.post-content .running-hub-card-title,
+.post-content .race-reflection-title {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: var(--semibold);
+}
+
+.post-content .running-hub-card-description,
+.post-content .race-reflection-description {
+    display: block;
+    color: var(--secondary);
+    font-size: var(--entrysize);
+    line-height: var(--lineheight);
+}
+
+.post-content .racing-dashboard {
+    margin: 1.5rem 0 2rem;
+}
+
+.post-content .table-scroll {
+    overflow-x: auto;
+    margin: 1rem 0 var(--content-gap);
+    -webkit-overflow-scrolling: touch;
+}
+
+.post-content .table-scroll table {
+    margin-bottom: 0;
+}
+
+.post-content .race-reflection-list {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+}
+
 @media (max-width: 600px) {
     .post-content .running-quick-links {
         padding: 1rem;
@@ -102,6 +172,11 @@
     .post-content .running-link-button {
         padding: 0.45rem 0.65rem;
         font-size: 0.9rem;
+    }
+
+    .post-content .running-hub-card,
+    .post-content .race-reflection-card {
+        padding: 0.9rem;
     }
 }
 

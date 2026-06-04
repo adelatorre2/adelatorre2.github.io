@@ -1,9 +1,13 @@
 ---
 title: "San Diego Beach & Bay Half Marathon 2026"
-date: 2026-01-31
+date: 2026-04-11
 summary: "1:18:59, 14th overall, and a rust-buster birthday race with Masaki."
-categories: ["personal-running"]
-tags: ["running", "training", "strava", "San Diego", "Half Marathon"]
+categories: ["personal-running", "racing"]
+tags: ["running", "racing", "half-marathon", "race-reflection", "strava", "san-diego"]
+aliases:
+  - /projects/personal_running/4-13-26_sd_half/
+build:
+  list: never
 ---
 
 

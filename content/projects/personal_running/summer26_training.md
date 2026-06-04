@@ -7,16 +7,14 @@ tags: ["running", "training", "strava", "log", "summer"]
 ---
 
 <!---TODOs:
-1) Add strava and coros training hub quick links----ADDED JUNE 3
-2) Add link hub with treadmill uphill pace treadmill conversions, pace calculator, etc
-3) New feature: autopopulate workouts to google calendar using claude whenever I prompt chat (mayvbe even make that a seperate calendar so friend can see my website and join me for my runs because they can see when I am going to run)
-4) BIG feature: Add API endpoint so that any workouts I put here get automatically added to Coros training hub
-5) Make chatgpt coach accessible via the website? Or somehow streamline the current workflow which is: prompt chat for week's workouts -> feed that to claude to put it on the calendar -> prompt claude code to add it to the website by editing this file 
-6) Add a PR and race results page on the website with ability to link strava result, add pictures, and text entry like a journal entry from the documentation, with a view for all personal bests and history longitudinal view of progression in each event
-7) Maybe somewhere to upload and visualize apple watch health data
-8) Add a page for lifting routines and tracking thereof'
-9) Add fueling and meal prep routines page
-10) Add book repo and source coaching material; maybe a journal space titled: "shit I learned the hard way" about running to document my learning and self coaching lessons
+1) New feature: autopopulate workouts to google calendar using claude whenever I prompt chat (mayvbe even make that a seperate calendar so friend can see my website and join me for my runs because they can see when I am going to run)
+2) BIG feature: Add API endpoint so that any workouts I put here get automatically added to Coros training hub
+3) Make chatgpt coach accessible via the website? Or somehow streamline the current workflow which is: prompt chat for week's workouts -> feed that to claude to put it on the calendar -> prompt claude code to add it to the website by editing this file 
+4) Add a PR and race results page on the website with ability to link strava result, add pictures, and text entry like a journal entry from the documentation, with a view for all personal bests and history longitudinal view of progression in each event
+5) Maybe somewhere to upload and visualize apple watch health data
+6) Add a page for lifting routines and tracking thereof'
+7) Add fueling and meal prep routines page
+8)  Add book repo and source coaching material; maybe a journal space titled: "shit I learned the hard way" about running to document my learning and self coaching lessons
 -->
 
 ---
