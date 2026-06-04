@@ -1,6 +1,7 @@
 ---
 title: "Running & Training"
 description: "A log of all my running and lifting training routines"
+summary: "Training logs, race results, fueling notes, and strength routines for my running."
 ---
 
 Here I share my current training plan and reflections from my training blocks.
