@@ -38,6 +38,8 @@ Here I share my current training plan and reflections from my training blocks.
       <a class="running-link-button" href="https://t.coros.com/admin/views/dash-board" target="_blank" rel="noopener noreferrer">COROS Training Hub</a>
       <a class="running-link-button" href="https://hevy.com/login?postLoginPath=%2Froutines" target="_blank" rel="noopener noreferrer">Hevy Routines</a>
       <a class="running-link-button" href="https://calendar.google.com/calendar/u/0/r/week" target="_blank" rel="noopener noreferrer">Google Calendar</a>
+      <a class="running-link-button" href="https://www.strava.com/athletes/77352805"
+      target="_blank/" rel="noopener noreferrer">Strava</a>
     </div>
   </div>
 </section>
