@@ -7,7 +7,7 @@ tags: ["running", "training", "strava", "log", "summer"]
 ---
 
 <!---TODOs:
-1) Add strava and coros training hub quick links
+1) Add strava and coros training hub quick links----ADDED JUNE 3
 2) Add link hub with treadmill uphill pace treadmill conversions, pace calculator, etc
 3) New feature: autopopulate workouts to google calendar using claude whenever I prompt chat (mayvbe even make that a seperate calendar so friend can see my website and join me for my runs because they can see when I am going to run)
 4) BIG feature: Add API endpoint so that any workouts I put here get automatically added to Coros training hub

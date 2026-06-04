@@ -33,6 +33,78 @@
     -webkit-line-clamp: unset;
 }
 
+.post-content .running-quick-links {
+    margin: 1.5rem 0 2rem;
+    padding: 1.25rem;
+    background: var(--entry);
+    border: 2px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.post-content .running-quick-links h2 {
+    margin: 0 0 0.35rem;
+    font-size: 22px;
+}
+
+.post-content .running-quick-links-note {
+    margin: 0 0 1rem;
+    color: var(--secondary);
+    font-size: var(--entrysize);
+}
+
+.post-content .running-link-group {
+    margin-top: 1rem;
+}
+
+.post-content .running-link-group h3 {
+    margin: 0 0 0.5rem;
+    color: var(--primary);
+    font-size: 16px;
+}
+
+.post-content .running-link-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.post-content .running-link-button {
+    display: inline-block;
+    padding: 0.45rem 0.7rem;
+    color: var(--primary);
+    background: var(--theme);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    box-shadow: none;
+    font-size: 0.92rem;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.post-content .running-link-button:hover,
+.post-content .running-link-button:focus {
+    color: var(--darkcolor);
+    border-color: var(--darkcolor);
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.post-content .running-link-button:focus-visible {
+    outline: 2px solid var(--darkcolor);
+    outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+    .post-content .running-quick-links {
+        padding: 1rem;
+    }
+
+    .post-content .running-link-button {
+        padding: 0.45rem 0.65rem;
+        font-size: 0.9rem;
+    }
+}
+
 .post-entry {
     position: relative;
     margin-bottom: var(--gap);
