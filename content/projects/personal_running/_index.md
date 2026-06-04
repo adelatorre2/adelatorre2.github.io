@@ -44,13 +44,23 @@ Here I share my current training plan and reflections from my training blocks.
   </div>
 </section>
 
-## Racing Archive
+## Running Hub
 
 <nav class="running-hub-nav" aria-label="Training and racing navigation">
   <a class="running-hub-card" href="/projects/personal_running/racing/">
     <span class="running-hub-card-title">Racing Dashboard</span>
     <span class="running-hub-card-description">PRs, race results, and race reflections.</span>
   </a>
+  <a class="running-hub-card" href="/projects/personal_running/training/">
+    <span class="running-hub-card-title">Training Logs</span>
+    <span class="running-hub-card-description">Training blocks, weekly plans, and reflections.</span>
+  </a>
+  <a class="running-hub-card" href="/projects/personal_running/fueling/">
+    <span class="running-hub-card-title">Fueling</span>
+    <span class="running-hub-card-description">Meal planning, race nutrition, grocery routines, and fueling experiments.</span>
+  </a>
+  <a class="running-hub-card" href="/projects/personal_running/strength-mobility/">
+    <span class="running-hub-card-title">Strength & Mobility</span>
+    <span class="running-hub-card-description">Lifting routines, mobility circuits, prehab, drills, and yoga flows.</span>
+  </a>
 </nav>
-
-## Training Logs

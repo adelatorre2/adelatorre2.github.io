@@ -102,6 +102,7 @@
 }
 
 .post-content .running-hub-card,
+.post-content .training-log-card,
 .post-content .race-reflection-card {
     display: block;
     padding: 1rem;
@@ -115,6 +116,8 @@
 
 .post-content .running-hub-card:hover,
 .post-content .running-hub-card:focus,
+.post-content .training-log-card:hover,
+.post-content .training-log-card:focus,
 .post-content .race-reflection-card:hover,
 .post-content .race-reflection-card:focus {
     color: var(--darkcolor);
@@ -124,12 +127,14 @@
 }
 
 .post-content .running-hub-card:focus-visible,
+.post-content .training-log-card:focus-visible,
 .post-content .race-reflection-card:focus-visible {
     outline: 2px solid var(--darkcolor);
     outline-offset: 2px;
 }
 
 .post-content .running-hub-card-title,
+.post-content .training-log-title,
 .post-content .race-reflection-title {
     display: block;
     margin-bottom: 0.35rem;
@@ -137,6 +142,7 @@
 }
 
 .post-content .running-hub-card-description,
+.post-content .training-log-description,
 .post-content .race-reflection-description {
     display: block;
     color: var(--secondary);
@@ -159,6 +165,12 @@
     margin-bottom: 0;
 }
 
+.post-content .training-log-list {
+    display: grid;
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+}
+
 .post-content .race-reflection-list {
     display: grid;
     gap: 1rem;
@@ -176,6 +188,7 @@
     }
 
     .post-content .running-hub-card,
+    .post-content .training-log-card,
     .post-content .race-reflection-card {
         padding: 0.9rem;
     }

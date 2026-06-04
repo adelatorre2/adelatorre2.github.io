@@ -4,6 +4,8 @@ date: 2026-05-18
 summary: "Base building, weekly plans, and reflections from summer training."
 categories: ["personal-running"]
 tags: ["running", "training", "strava", "log", "summer"]
+build:
+  list: never
 ---
 
 <!---TODOs:

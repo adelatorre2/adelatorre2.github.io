@@ -4,6 +4,8 @@ date: 2026-01-31
 summary: "What's in the pot?"
 categories: ["personal-running"]
 tags: ["running", "training", "strava","log"]
+build:
+  list: never
 ---
 
 ### January 2026
