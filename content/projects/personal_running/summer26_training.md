@@ -25,6 +25,10 @@ build:
 
 **Summer 2026 Base Building**
 
+## Related Fueling Plan
+
+[Summer 2026 Training Meal Plan](/projects/personal_running/fueling/meal-plans/summer-2026-training/)
+
 ---
 
 ## Week of June 1–7, 2026

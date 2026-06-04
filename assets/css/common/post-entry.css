@@ -101,7 +101,15 @@
     margin: 1.5rem 0 2rem;
 }
 
+.post-content .fueling-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+}
+
 .post-content .running-hub-card,
+.post-content .fueling-card,
 .post-content .training-log-card,
 .post-content .race-reflection-card {
     display: block;
@@ -116,6 +124,8 @@
 
 .post-content .running-hub-card:hover,
 .post-content .running-hub-card:focus,
+.post-content .fueling-card:hover,
+.post-content .fueling-card:focus,
 .post-content .training-log-card:hover,
 .post-content .training-log-card:focus,
 .post-content .race-reflection-card:hover,
@@ -127,6 +137,7 @@
 }
 
 .post-content .running-hub-card:focus-visible,
+.post-content .fueling-card:focus-visible,
 .post-content .training-log-card:focus-visible,
 .post-content .race-reflection-card:focus-visible {
     outline: 2px solid var(--darkcolor);
@@ -134,6 +145,7 @@
 }
 
 .post-content .running-hub-card-title,
+.post-content .fueling-card-title,
 .post-content .training-log-title,
 .post-content .race-reflection-title {
     display: block;
@@ -142,6 +154,7 @@
 }
 
 .post-content .running-hub-card-description,
+.post-content .fueling-card-description,
 .post-content .training-log-description,
 .post-content .race-reflection-description {
     display: block;
@@ -188,6 +201,7 @@
     }
 
     .post-content .running-hub-card,
+    .post-content .fueling-card,
     .post-content .training-log-card,
     .post-content .race-reflection-card {
         padding: 0.9rem;
