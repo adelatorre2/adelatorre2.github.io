@@ -19,7 +19,9 @@ A simple working archive of personal records and race reflections. Detailed prog
 | 1500m | 4:04.32 | Jan 29, 2022 | [Athletic.net](https://www.athletic.net/athlete/1260858) | [History](/projects/personal_running/racing/1500m/) |
 | 1600m | 4:19.95 | Apr 2, 2022 | [Athletic.net](https://www.athletic.net/athlete/1260858) | [History](/projects/personal_running/racing/1600m/) |
 | Mile | 4:23.11 | Feb 19, 2022 | [Athletic.net](https://www.athletic.net/athlete/1260858) | [History](/projects/personal_running/racing/mile/) |
+| 3000m | TBD | TBD | Source needed | [History](/projects/personal_running/racing/3000m/) |
 | 3200m | 9:14.50 | Apr 13, 2022 | [Athletic.net](https://www.athletic.net/athlete/1260858) | [History](/projects/personal_running/racing/3200m/) |
+| 5000m | TBD | TBD | Source needed | [History](/projects/personal_running/racing/5000m/) |
 | 10,000m | 30:39 | Apr 21, 2023 | [DirectAthletics](https://www.directathletics.com/athletes/track/8549426.html) | [History](/projects/personal_running/racing/10000m/) |
 
 </div>
@@ -31,10 +33,10 @@ A simple working archive of personal records and race reflections. Detailed prog
 | Event | Time | Date | Source | Progression |
 |---|---:|---|---|---|
 | Mile | TBD | TBD | Source needed | [History](/projects/personal_running/racing/road-mile/) |
-| 3 Mile XC | 15:06.0 | Sep 25, 2021 | [Athletic.net](https://www.athletic.net/athlete/1260858) | [History](/projects/personal_running/racing/3-mile-xc/) |
-| 5K XC | 15:54.1 | Dec 4, 2021 | [Athletic.net](https://www.athletic.net/athlete/1260858) | [History](/projects/personal_running/racing/5k/) |
-| 8K XC | 25:04.56 | Nov 2023 | [NIRCA Nationals raw results](https://in.milesplit.com/meets/581639-nirca-national-championships-2023/results/989550/raw) | [History](/projects/personal_running/racing/8k/) |
-| 10K Road | TBD | TBD | Source needed | [History](/projects/personal_running/racing/10k-road/) |
+| 3 Mile | 15:06.0 | Sep 25, 2021 | [Athletic.net](https://www.athletic.net/athlete/1260858) | [History](/projects/personal_running/racing/3-mile-xc/) |
+| 5K | 15:54.1 | Dec 4, 2021 | [Athletic.net](https://www.athletic.net/athlete/1260858) | [History](/projects/personal_running/racing/5k/) |
+| 8K | 25:04.56 | Nov 2023 | [NIRCA Nationals raw results](https://in.milesplit.com/meets/581639-nirca-national-championships-2023/results/989550/raw) | [History](/projects/personal_running/racing/8k/) |
+| 10K | TBD | TBD | Source needed | [History](/projects/personal_running/racing/10k-road/) |
 | Half Marathon | 1:18:59 | Apr 11, 2026 | [San Diego Beach & Bay Half Marathon](https://www.geminiraceresults.com/results/san-diego-beach-bay-half-marathon-5k-10k/2026) | [History](/projects/personal_running/racing/half-marathon/) |
 | Marathon | 2:51:47 | Nov 10, 2024 | [Madison Marathon](https://results.raceroster.com/v3/events/zn2s64p3ctpf4hr4/race/215118/participant/t63gsf5fewtafy74?filter_search=Alejandro) | [History](/projects/personal_running/racing/marathon/) |
 
