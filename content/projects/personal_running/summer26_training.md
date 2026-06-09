@@ -33,6 +33,139 @@ Use this meal plan as the grocery backbone for the summer base-building block.
 
 ---
 
+## Week of June 8–14, 2026
+
+**Theme:** Consistency Before Fitness  
+**Target:** 45–55 M, but do not chase make-up mileage  
+**Purpose:** Stack another consistent week after the Puerto Rico reset, a missed long run from feeling unwell, the internship start, and the move to DC.
+
+The goal this week is to finish saying: "I ran 6–7 days and feel better than when I started." The win is not one killer workout. The win is another durable week.
+
+### Weekly Priorities
+
+- Run 6–7 days if the body cooperates.
+- Keep most running easy, aerobic, and pressure-free.
+- Do one controlled threshold workout.
+- Keep the long run relaxed with no hard finish.
+- Use strides to keep the legs quick without adding intensity.
+- Do not pay back missed mileage from last week.
+- Finish the week more stable than when it started.
+
+### Week at a Glance
+
+<div style="overflow-x:auto;">
+
+| Day | Date | Session | Approx. Miles | Notes |
+|---|---:|---|---:|---|
+| Mon | Jun 8 | 60–75' easy aerobic | 7–9 | Not a make-up long run |
+| Tue | Jun 9 | 45–55' EZ + 6x20" strides | 5.5–7 | Keep legs quick |
+| Wed | Jun 10 | 3x10' threshold / 2' jog | 7.5–9.5 | Controlled, sustainable |
+| Thu | Jun 11 | 40–50' recovery | 4.5–6 | Optional calf raises + mobility |
+| Fri | Jun 12 | 60' steady aerobic | 7–8.5 | Not progression, not tempo |
+| Sat | Jun 13 | 40–50' EZ + 6x20" strides | 4.5–6.5 | Relaxed |
+| Sun | Jun 14 | 80–90' long run | 10–12 | No hard finish, no pace target |
+| | | **Weekly estimate** | **45–55** | Consistency matters more than mileage |
+
+</div>
+
+**Estimated weekly mileage:** 45–55 M would be perfect. Shorten any day if the move, internship, heat, sleep, or lingering illness makes that the smarter call.
+
+---
+
+### Day-by-Day Plan
+
+#### Monday, June 8 — Easy Aerobic Reset
+
+**Run:** 60–75' easy aerobic  
+**Approx:** 7–9 M  
+**Effort:** Easy, relaxed, and fully aerobic  
+**Note:** Since the long run did not happen Sunday, do not turn this into a make-up long run. Not 90'. Not 120'. The illness/headache matters. There is no need to pay back missed mileage.
+
+---
+
+#### Tuesday, June 9 — Easy Run + Strides
+
+**Run:** 45–55' EZ + 6x20" strides  
+**Approx:** 5.5–7 M  
+**Effort:** Conversational running; strides quick but relaxed  
+**Note:** Keep the legs feeling quick without adding real intensity.
+
+---
+
+#### Wednesday, June 10 — Controlled Threshold
+
+**Run:** WU + 3x10' threshold / 2' jog + CD  
+**Approx:** 7.5–9.5 M  
+**Effort:** Controlled, sustainable, no heroics  
+**Finish feeling like:** "I could have done one more rep."  
+**Note:** This is the only workout of the week. Do not force pace if life stress, heat, or fatigue is high.
+
+---
+
+#### Thursday, June 11 — Recovery Run
+
+**Run:** 40–50' recovery  
+**Approx:** 4.5–6 M  
+**Effort:** Very relaxed and conversational  
+**Optional:** Calf raises and mobility  
+**Note:** Absorb Wednesday. This should feel restorative.
+
+---
+
+#### Friday, June 12 — Steady Aerobic
+
+**Run:** 60' steady aerobic  
+**Approx:** 7–8.5 M  
+**Effort:** Comfortable, rhythmic, smooth  
+**Note:** Not progression. Not tempo. Just steady aerobic running.
+
+---
+
+#### Saturday, June 13 — Easy Run + Strides
+
+**Run:** 40–50' EZ + 6x20" strides  
+**Approx:** 4.5–6.5 M  
+**Effort:** Easy and relaxed; strides smooth, not forced  
+**Note:** Keep it light so Sunday can be relaxed.
+
+---
+
+#### Sunday, June 14 — Long Run
+
+**Run:** 80–90' long run  
+**Approx:** 10–12 M  
+**Effort:** Relaxed, fully aerobic, no pace target  
+**Note:** No hard finish. If the week has accumulated more stress than expected, 80' is enough.
+
+---
+
+### Effort Rules
+
+- No additional intensity this week.
+- The Wednesday threshold should feel controlled, not like a race.
+- Friday should stay steady aerobic, not progression or tempo.
+- Sunday should stay relaxed with no hard finish.
+- Do not compensate for last week's missed long run.
+- The win is consistency before fitness.
+
+### What We’re Building
+
+June is about durability: the ability to run consistently, recover consistently, work consistently, and sleep consistently.
+
+Once that exists, July can become a cleaner volume build. The summer outlook is simple:
+
+- June: consistency
+- July: volume
+- August: specific workouts
+
+This week should be one threshold session, one long run, lots of aerobic running, and no pressure.
+
+### Reflection
+
+_To be completed after the week._
+
+---
+
 ## Week of June 1–7, 2026
 
 **Theme:** Momentum  
