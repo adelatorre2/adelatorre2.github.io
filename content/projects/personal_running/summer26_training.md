@@ -33,6 +33,137 @@ Use this meal plan as the grocery backbone for the summer base-building block.
 
 ---
 
+## Week of June 15–21, 2026
+
+**Theme:** Durable Volume While Traveling  
+**Target:** 48–58 M, with the upper end only if travel stress stays low  
+**Purpose:** Continue the successful June 8–14 pattern, add only a marginal volume bump, and keep the week flexible around travel from June 17–21.
+
+The goal this week is to build from the successful 95' long run without forcing extra stress. This is still base building. The win is another consistent week with slightly more volume, not more intensity.
+
+### Weekly Priorities
+
+- Run 6–7 days if travel, sleep, and heat cooperate.
+- Keep most running easy and aerobic.
+- Keep one controlled threshold workout, but do not force pace.
+- Use the travel days as consistency days, not proving-ground days.
+- Keep the long run relaxed and fully aerobic.
+- Add volume only if the body feels normal.
+- Shorten any travel day without guilt.
+
+### Week at a Glance
+
+<div style="overflow-x:auto;">
+
+| Day | Date | Session | Approx. Miles | Notes |
+|---|---:|---|---:|---|
+| Mon | Jun 15 | 45–55' recovery EZ + mobility | 5–7 | Absorb the 95' LR |
+| Tue | Jun 16 | 60–70' aerobic + 6x20" strides | 7.5–9.5 | Light volume bump, no workout |
+| Wed | Jun 17 | 35–50' EZ travel shakeout | 4–6.5 | Travel day; backup 20–30' |
+| Thu | Jun 18 | 3x8' controlled threshold / 2' jog | 7–9 | Only workout of the week |
+| Fri | Jun 19 | 30–45' EZ recovery | 3.5–6 | Fishing/travel flexible day |
+| Sat | Jun 20 | 60–75' aerobic | 7.5–10 | Keep it smooth and relaxed |
+| Sun | Jun 21 | 85–95' long run | 10.5–13 | Fully aerobic, no hard finish |
+| | | **Weekly estimate** | **48–58** | Travel-adjusted base build |
+
+</div>
+
+**Estimated weekly mileage:** 48–58 M if the week goes well. If travel, heat, sleep, fishing plans, or family obligations create friction, 42–48 M is still a successful week.
+
+---
+
+### Day-by-Day Plan
+
+#### Monday, June 15 — Recovery After Long Run
+
+**Run:** 45–55' recovery EZ + mobility  
+**Approx:** 5–7 M  
+**Effort:** Very relaxed and conversational  
+**Note:** This is about absorbing the 95' long run. Keep it genuinely easy.
+
+---
+
+#### Tuesday, June 16 — Aerobic Volume + Strides
+
+**Run:** 60–70' aerobic + 6x20" strides  
+**Approx:** 7.5–9.5 M  
+**Effort:** Easy to steady, but not pressing  
+**Note:** This is the main pre-travel volume day. Strides should feel smooth and relaxed, not like a workout.
+
+---
+
+#### Wednesday, June 17 — Travel Shakeout
+
+**Run:** 35–50' EZ  
+**Approx:** 4–6.5 M  
+**Effort:** Easy, low-friction, no pace target  
+**Backup:** 20–30' jog if travel timing gets messy  
+**Note:** The goal is to keep the rhythm alive while traveling.
+
+---
+
+#### Thursday, June 18 — Controlled Threshold
+
+**Run:** WU + 3x8' controlled threshold / 2' jog + CD  
+**Approx:** 7–9 M  
+**Effort:** Comfortably hard, sustainable, around HM-to-threshold effort  
+**Finish feeling like:** "I could have done one more rep."  
+**Backup:** 45–60' steady aerobic if heat, sleep, or travel stress is high  
+**Note:** This is the only real workout of the week. Do not force pace.
+
+---
+
+#### Friday, June 19 — Flexible Recovery Day
+
+**Run:** 30–45' EZ recovery  
+**Approx:** 3.5–6 M  
+**Effort:** Very relaxed  
+**Backup:** 20' shakeout or walk if fishing/travel drains the day  
+**Note:** This day exists to preserve consistency, not create fatigue.
+
+---
+
+#### Saturday, June 20 — Aerobic Run
+
+**Run:** 60–75' aerobic  
+**Approx:** 7.5–10 M  
+**Effort:** Smooth, relaxed, fully aerobic  
+**Note:** Do not turn this into a progression. This is durable volume.
+
+---
+
+#### Sunday, June 21 — Long Run
+
+**Run:** 85–95' long run  
+**Approx:** 10.5–13 M  
+**Effort:** Relaxed, fully aerobic, no pace target  
+**Fuel:** Bring electrolytes and consider fuel if going over 90'  
+**Note:** No hard finish. The goal is another long aerobic anchor while traveling.
+
+---
+
+### Travel Rules
+
+- If a travel day feels chaotic, run 20–30' and count it as a win.
+- Do not chase mileage after a shortened day.
+- Hydrate aggressively, especially if flying or driving.
+- Keep easy runs easy in heat.
+- Use the long run as the anchor, not the weekday workout.
+
+### Effort Rules
+
+- No extra intensity this week.
+- Thursday is the only workout.
+- Saturday is not a progression.
+- Sunday is not a race.
+- The week succeeds if running stays sustainable while traveling.
+
+### Reflection
+
+_To be completed after the week._
+
+---
+
 ## Week of June 8–14, 2026
 
 **Theme:** Consistency Before Fitness  
