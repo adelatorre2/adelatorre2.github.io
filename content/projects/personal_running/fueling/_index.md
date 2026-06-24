@@ -2,6 +2,8 @@
 title: "Fueling"
 date: 2026-06-03
 summary: "Training-friendly recipes, simple fueling ideas, and nutrition references."
+build:
+  list: never
 listSection: "/projects/personal_running/fueling/recipes"
 listEmptyMessage: "Recipes will be added here as I test meals, snacks, and recovery routines."
 ---
