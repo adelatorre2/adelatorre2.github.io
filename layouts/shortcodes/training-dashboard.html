@@ -32,20 +32,6 @@
   background: var(--darkcolor);
   color: #fff;
 }
-.td-export-btn {
-  margin-left: auto;
-  background: none;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  color: var(--secondary);
-  font-size: 13px;
-  padding: 6px 12px;
-  cursor: pointer;
-  min-height: 44px;
-  white-space: nowrap;
-}
-.td-export-btn:hover { border-color: var(--darkcolor); color: var(--darkcolor); }
-
 /* ── Week view ──────────────────────────────────────────── */
 .td-week {
   border: 1px solid var(--border);
@@ -178,82 +164,9 @@
 .td-list tr:last-child td { border-bottom: none; }
 .td-list tr:hover td { background: var(--code-bg); }
 
-/* ── Per-day notes ──────────────────────────────────────── */
-.td-note-wrap {
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid var(--border);
-}
-.td-note-label { font-size: 12px; color: var(--secondary); margin-bottom: 4px; display: block; }
-.td-note-area {
-  width: 100%;
-  box-sizing: border-box;
-  font-size: 13px;
-  line-height: 1.4;
-  padding: 8px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--code-bg);
-  color: var(--primary);
-  resize: vertical;
-  min-height: 52px;
-  font-family: inherit;
-}
-.td-note-area:focus { outline: none; border-color: var(--darkcolor); }
-.td-note-saved {
-  font-size: 11px;
-  color: var(--secondary);
-  margin-top: 2px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-.td-note-saved.td-flash { opacity: 1; }
-
-/* ── Export dialog ──────────────────────────────────────── */
-dialog.td-dialog {
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 24px;
-  background: var(--theme);
-  color: var(--primary);
-  max-width: 560px;
-  width: 90vw;
-}
-dialog.td-dialog::backdrop { background: rgba(0,0,0,0.45); }
-.td-dialog h3 { margin: 0 0 12px; font-size: 16px; }
-.td-dialog textarea {
-  width: 100%;
-  box-sizing: border-box;
-  height: 240px;
-  font-family: monospace;
-  font-size: 13px;
-  padding: 10px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--code-bg);
-  color: var(--primary);
-  resize: vertical;
-}
-.td-dialog-footer { margin-top: 12px; display: flex; gap: 8px; justify-content: flex-end; }
-.td-dialog-footer button {
-  padding: 8px 16px;
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-  cursor: pointer;
-  font-size: 14px;
-  background: var(--code-bg);
-  color: var(--primary);
-}
-.td-dialog-footer button.td-btn-primary {
-  background: var(--darkcolor);
-  color: #fff;
-  border-color: var(--darkcolor);
-}
-
 /* ── Mobile ─────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .td-views button { padding: 8px 10px; font-size: 13px; }
-  .td-export-btn { margin-left: 0; width: 100%; text-align: center; }
   .td-bar { flex-direction: column; align-items: stretch; }
   .td-views { width: 100%; }
   .td-views button { flex: 1; }
@@ -528,76 +441,6 @@ dialog.td-dialog::backdrop { background: rgba(0,0,0,0.45); }
     return container;
   }
 
-  // ── Notes persistence ─────────────────────────────────────
-  function initNotes(weeks) {
-    weeks.forEach(w => {
-      w.days.forEach(d => {
-        if (!d.date || !d.heading) return;
-        const key = `summer26_notes_v1_${isoDate(d.date)}`;
-        const wrap = document.createElement('div');
-        wrap.className = 'td-note-wrap';
-        const saved = document.createElement('span');
-        saved.className = 'td-note-saved';
-        saved.textContent = 'saved';
-        const ta = document.createElement('textarea');
-        ta.className = 'td-note-area';
-        ta.rows = 2;
-        ta.placeholder = 'Post-workout note (saved locally on this device)';
-        ta.value = localStorage.getItem(key) || '';
-        let timer;
-        ta.addEventListener('input', () => {
-          clearTimeout(timer);
-          timer = setTimeout(() => {
-            localStorage.setItem(key, ta.value);
-            saved.classList.add('td-flash');
-            setTimeout(() => saved.classList.remove('td-flash'), 1400);
-          }, 500);
-        });
-        wrap.innerHTML = `<span class="td-note-label">Post-workout note</span>`;
-        wrap.appendChild(ta);
-        wrap.appendChild(saved);
-        // insert after last node in day section, before next h4/hr
-        const lastNode = d.nodes[d.nodes.length - 1];
-        if (lastNode && lastNode.parentNode) {
-          lastNode.parentNode.insertBefore(wrap, lastNode.nextSibling);
-        } else if (d.heading.parentNode) {
-          d.heading.parentNode.insertBefore(wrap, d.heading.nextSibling);
-        }
-      });
-    });
-  }
-
-  // ── Export notes ──────────────────────────────────────────
-  function buildExportDialog() {
-    const dialog = document.createElement('dialog');
-    dialog.className = 'td-dialog';
-    dialog.innerHTML = `<h3>Export notes as markdown</h3><textarea readonly></textarea><div class="td-dialog-footer"><button class="td-btn-primary" id="td-copy-btn">Copy</button><button id="td-close-btn">Close</button></div>`;
-    document.body.appendChild(dialog);
-    dialog.querySelector('#td-close-btn').addEventListener('click', () => dialog.close());
-    dialog.querySelector('#td-copy-btn').addEventListener('click', () => {
-      const ta = dialog.querySelector('textarea');
-      ta.select();
-      document.execCommand('copy');
-      dialog.querySelector('#td-copy-btn').textContent = 'Copied!';
-      setTimeout(() => dialog.querySelector('#td-copy-btn').textContent = 'Copy', 1500);
-    });
-    return dialog;
-  }
-
-  function exportNotes(dialog) {
-    const keys = Object.keys(localStorage).filter(k => k.startsWith('summer26_notes_v1_')).sort().reverse();
-    if (!keys.length) { alert('No notes saved yet.'); return; }
-    let md = '## Post-Workout Notes — Summer 2026\n\n';
-    keys.forEach(k => {
-      const val = localStorage.getItem(k);
-      if (!val) return;
-      const d = new Date(k.replace('summer26_notes_v1_',''));
-      md += `### ${DAYS_FULL[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}\n${val}\n\n`;
-    });
-    dialog.querySelector('textarea').value = md.trim();
-    dialog.showModal();
-  }
-
   // ── View switching ─────────────────────────────────────────
   let currentView = 'week';
   const viewIds = { week: '.td-week', calendar: '#td-cal-view', list: '#td-list-view' };
@@ -622,13 +465,10 @@ dialog.td-dialog::backdrop { background: rgba(0,0,0,0.45); }
 
     const calView = buildCalendar(weeks);
     const listView = buildList(weeks);
-    const dialog = buildExportDialog();
 
     const content = document.querySelector('.post-content');
     content.appendChild(calView);
     content.appendChild(listView);
-
-    initNotes(weeks);
 
     // build toggle bar and inject into #training-dash
     const dash = document.getElementById('training-dash');
@@ -640,9 +480,7 @@ dialog.td-dialog::backdrop { background: rgba(0,0,0,0.45); }
         <button data-view="week" class="td-active">Week</button>
         <button data-view="calendar">Calendar</button>
         <button data-view="list">List</button>
-      </div>
-      <button class="td-export-btn">Export notes</button>`;
-    bar.querySelector('.td-export-btn').addEventListener('click', () => exportNotes(dialog));
+      </div>`;
     bar.querySelectorAll('.td-views button').forEach(b => b.addEventListener('click', () => switchView(b.dataset.view)));
     dash.appendChild(bar);
 

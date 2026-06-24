@@ -660,7 +660,7 @@ _To be completed after the week._
 
 ## How I'll Update This Page
 
-This page has a JavaScript dashboard (Week / Calendar / List views, per-day notes). The dashboard reads heading text to parse weeks and days — so the headings below must follow the exact formats.
+This page has a JavaScript dashboard (Week / Calendar / List views). The dashboard reads heading text to parse weeks and days — so the headings below must follow the exact formats.
 
 **Each new week — add ABOVE older weeks, right below "Current Block":**
 
@@ -670,9 +670,7 @@ This page has a JavaScript dashboard (Week / Calendar / List views, per-day note
 4. `### Week at a Glance` table (wrapped in `<div style="overflow-x:auto;">`)
 5. `### Day-by-Day Plan` section with one `#### [Weekday], [Month D] — [Label]` heading per day (e.g. `#### Monday, May 25 — Easy Restart`)
 6. Each day's content with `**Run:**`, `**Approx:**`, `**Effort:**` fields — the List view parses `**Approx:** X–Y M`
-7. `### Reflection` at the bottom of the week — paste exported notes here after the week is done
-
-**Notes feature:** The dashboard saves per-day workout notes in your browser's localStorage (device-local, not synced). Use "Export notes" to get a markdown snippet, then paste it into the `### Reflection` block of the source file for permanent storage. Clearing browser data will erase unsaved notes.
+7. `### Reflection` at the bottom of the week for an end-of-week recap
 
 Older weeks stay below and collapse automatically. The current week auto-expands on load.
 
