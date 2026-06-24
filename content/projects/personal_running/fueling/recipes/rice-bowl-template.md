@@ -7,8 +7,6 @@ meal_type: ["lunch", "dinner"]
 training_use: ["everyday", "post-run"]
 key_ingredients: ["rice", "vegetables"]
 cost_tier: "budget"
-build:
-  list: never
 ---
 
 # Rice Bowl Template

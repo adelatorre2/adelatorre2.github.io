@@ -7,8 +7,6 @@ meal_type: ["lunch", "dinner"]
 training_use: ["everyday", "post-run"]
 key_ingredients: ["orzo", "chicken", "vegetables"]
 cost_tier: "moderate-cost"
-build:
-  list: never
 ---
 
 # Orzo Chicken Bowl Template

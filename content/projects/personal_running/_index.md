@@ -58,10 +58,6 @@ Here I share my current training plan and reflections from my training blocks.
   </a>
   <a class="running-hub-card" href="/projects/personal_running/fueling/">
     <span class="running-hub-card-title">Fueling</span>
-    <span class="running-hub-card-description">Meal planning, race nutrition, grocery routines, and fueling experiments.</span>
-  </a>
-  <a class="running-hub-card" href="/projects/personal_running/strength-mobility/">
-    <span class="running-hub-card-title">Strength & Mobility</span>
-    <span class="running-hub-card-description">Lifting routines, mobility circuits, prehab, drills, and yoga flows.</span>
+    <span class="running-hub-card-description">Recipes, simple fueling ideas, and nutrition reference links.</span>
   </a>
 </nav>

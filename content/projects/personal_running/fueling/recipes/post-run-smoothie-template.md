@@ -7,8 +7,6 @@ meal_type: ["drink", "snack"]
 training_use: ["post-run", "recovery"]
 key_ingredients: ["fruit", "yogurt"]
 cost_tier: "budget"
-build:
-  list: never
 ---
 
 # Post-Run Smoothie Template

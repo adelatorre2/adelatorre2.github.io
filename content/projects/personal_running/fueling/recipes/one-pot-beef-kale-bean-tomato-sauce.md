@@ -7,8 +7,6 @@ meal_type: ["dinner"]
 training_use: ["everyday", "post-run", "meal-prep"]
 key_ingredients: ["ground beef", "kale", "beans", "tomato sauce"]
 cost_tier: "budget"
-build:
-  list: never
 ---
 
 # One-Pot Beef, Kale, Bean, Tomato Sauce
