@@ -33,6 +33,111 @@ Use this meal plan as the grocery backbone for the summer base-building block.
 
 ---
 
+## Week of June 22–28, 2026
+
+**Theme:** Rebuild Momentum + Strength Integration  
+**Target:** 35–45 M depending on recovery  
+**Purpose:** Resume training after disrupted travel week, document missed running days honestly, and begin adding regular strength training without compromising aerobic base building.
+
+June 16–21 was disrupted by travel. Running did not happen during that stretch, but there was light activity, walking, and fishing. The goal now is not to make up mileage, but to restart momentum.
+
+### Week at a Glance
+
+<div style="overflow-x:auto;">
+
+| Day | Date | Session | Approx. Miles | Notes |
+|---|---:|---|---:|---|
+| Mon | Jun 22 | No run | — | Reset and recover |
+| Tue | Jun 23 | Leg lift + 40' run home | 5.5 | Strength + aerobic restart |
+| Wed | Jun 24 | 45–55' EZ + upper body/core | — | Keep the run fully easy |
+| Thu | Jun 25 | 60' aerobic + 6x20" strides | — | Smooth, relaxed turnover |
+| Fri | Jun 26 | 35–45' EZ recovery + optional upper/arms | — | Low-stress recovery day |
+| Sat | Jun 27 | 65–75' aerobic | — | Durable aerobic volume |
+| Sun | Jun 28 | 85–95' LR | — | Relaxed aerobic; fuel if over 90' |
+| | | **Weekly estimate** | **35–45** | Rebuild momentum without chasing mileage |
+
+</div>
+
+**Estimated weekly mileage:** 35–45 M depending on recovery. The target is to restore rhythm, not make up the missed travel-week mileage.
+
+---
+
+### Day-by-Day Plan
+
+#### Monday, June 22 — Reset Day
+
+**Run:** No run  
+**Note:** Take the rest day without trying to compensate. Use it to reset after travel and prepare to restart the week with good energy.
+
+---
+
+#### Tuesday, June 23 — Leg Lift + Run Home
+
+**Strength:** Barbell squats, standing calf raises, Romanian deadlift, leg extension, seated leg curl, hip abduction, soleus raise, crunches  
+**Run:** 40' run home  
+**Approx:** 5.5 M  
+**Effort:** Easy and conversational  
+**Note:** Complete the lift with controlled form, then use the run home as a relaxed aerobic restart rather than a workout.
+
+---
+
+#### Wednesday, June 24 — Easy Run + Upper Body/Core
+
+**Run:** 45–55' EZ  
+**Effort:** Very relaxed and conversational  
+**Strength:** Upper body/core  
+**Note:** Keep the run easy enough that strength work does not compromise aerobic recovery.
+
+---
+
+#### Thursday, June 25 — Aerobic Run + Strides
+
+**Run:** 60' aerobic + 6x20" strides  
+**Effort:** Easy aerobic; strides quick, smooth, and relaxed  
+**Note:** This is a rhythm-building day, not a workout. Take full recovery between strides.
+
+---
+
+#### Friday, June 26 — Recovery Run + Optional Upper Body
+
+**Run:** 35–45' EZ recovery  
+**Effort:** Very relaxed  
+**Optional:** Upper body/arms  
+**Note:** Keep this low-stress. Skip the extra lifting if the legs are carrying fatigue from Tuesday.
+
+---
+
+#### Saturday, June 27 — Aerobic Run
+
+**Run:** 65–75' aerobic  
+**Effort:** Smooth, relaxed, fully aerobic  
+**Note:** Build durable volume without turning the run into a progression.
+
+---
+
+#### Sunday, June 28 — Long Run
+
+**Run:** 85–95' long run  
+**Effort:** Relaxed, fully aerobic, no pace target  
+**Fuel:** Bring fuel if going over 90'  
+**Note:** Let this be a calm aerobic anchor. No hard finish and no need to force the full duration if recovery is not there.
+
+---
+
+### Strength Integration
+
+- 3–4 strength touches per week for now
+- Lower body once weekly heavy/moderate
+- Upper body/core 1–2x weekly
+- Calves/soleus 2–3x weekly
+- Do not chase daily heavy lifting yet
+
+### Reflection
+
+_To be completed after the week._
+
+---
+
 ## Week of June 15–21, 2026
 
 **Theme:** Durable Volume While Traveling  
