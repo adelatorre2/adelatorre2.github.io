@@ -25,12 +25,7 @@ build:
 
 **Summer 2026 Base Building**
 
-## Related Fueling Plan
-
-[Summer 2026 Training Meal Plan](/projects/personal_running/fueling/meal-plans/summer-2026-training/)
-
-Use this meal plan as the grocery backbone for the summer base-building block.
-
+Just building momentum again and training up to an 80 mile week with a focus on strength and 5k/10k on the roads come fall.
 ---
 
 ## Week of June 22–28, 2026
