@@ -38,7 +38,7 @@ menu:
           weight: 7
 
 params:
-    description: "Alejandro De La Torre — economics (math emphasis) + information science (analytics). Interested in applied economics, IO/antitrust, and data analytics."
+    description: "Alejandro De La Torre — Analyst at Analysis Group in Washington, D.C.; UW–Madison alum in economics (math emphasis) + information science (analytics). Interested in applied economics, IO/antitrust, and data analytics."
     author: Alejandro De La Torre
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -64,7 +64,7 @@ params:
     profileMode:
           enabled: true
           title: Alejandro De La Torre
-          subtitle: "¡Qué tal! I am @adelatorre2<br>🏫 Econ + Info Sci + Math @ <a href=\"https://econ.wisc.edu/\" target=\"_blank\" rel=\"noopener\">UW–Madison</a><br>📊 Analyst in the short-run, empirical econ research in the long-run<br>🔍 Interested in labor & public economics, applied econometrics, and policy-oriented work<br>🎨 Dabbler in data viz, running, & competitive excel<br>⚡ Explore my work and let’s get in touch!"
+          subtitle: "¡Qué tal! I am @adelatorre2<br>🏫 Econ + Info Sci + Math alum @ <a href=\"https://econ.wisc.edu/\" target=\"_blank\" rel=\"noopener\">UW–Madison</a><br>📊 Analyst at <a href=\"https://www.analysisgroup.com/\" target=\"_blank\" rel=\"noopener\">Analysis Group</a> (Washington, D.C.) in the short-run, empirical econ research in the long-run<br>🔍 Interested in labor & public economics, applied econometrics, and policy-oriented work<br>🎨 Dabbler in data viz, running, & competitive excel<br>⚡ Explore my work and let’s get in touch!"
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
@@ -92,7 +92,7 @@ params:
         - name: Bluesky
           url: https://bsky.app/profile/alejdlt.bsky.social
         - name: Email
-          url: mailto:adelatorre2@wisc.edu
+          url: mailto:alejandro.delatorre@analysisgroup.com
         - name: Resume
           url: adlt_resume.pdf
         - name: Twitch
